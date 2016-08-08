@@ -34,9 +34,47 @@
           <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
           <a class="btn" href="#">Узнать больше</a>
         </article>
-        <!--Слайдер-->.
-        <article class="slider">
 
+        <!--Слайдер-->
+
+        <article id="slider">
+
+        <!-- Радиобатоны -->
+
+          <input type=radio name="slider" id="slide_1" checked>
+          <input type=radio name="slider" id="slide_2">
+          <input type=radio name="slider" id="slide_3">
+
+        <!-- Сам слайдер -->
+
+          <div id="slides">
+            <div id="over_flow">
+              <div class="inner">
+                <article>
+                  <img src="http//:placehold.it/350x250" width="350" height="250">
+                </article>
+                <article>
+                  <img src="http//:placehold.it/350x250" width="350" height="250">
+                </article>
+                <article>
+                  <img src="http//:placehold.it/350x250" width="350" height="250">
+                </article>
+              </div>
+            </div>
+          </div>
+
+        <!-- Контроллеры и активаторы -->
+
+          <div id=controls>
+            <label for=slide_1></label>
+            <label for=slide_2></label>
+            <label for=slide_3></label>
+          </div>
+          <div id=active>
+            <label for=slide_1></label>
+            <label for=slide_2></label>
+            <label for=slide_3></label>
+          </div>
         </article>
       </div>
     </header>
