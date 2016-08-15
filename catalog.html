@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>Дизайн-студия «Нёрдс»</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:500&subset=latin,cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container">
+        <div class="header-logo">
+          <a href="index.html">
+            <img src="img/header-logo.png" alt="Дизайн-студия «Нёрдс»" width="139" height="56">
+          </a>
+        </div>
+        <nav class="main-navigation">
+          <ul>
+            <li>
+              <a href="#">Студия</a>
+            </li>
+            <li>
+              <a href="#">Клиенты</a>
+            </li>
+            <li>
+              <a href="#">Магазин</a>
+            </li>
+            <li>
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="cart">
+          <a href="#">Корзина</a>
+        </div>
+        <h1>Добро пожаловать в магазин готовых макетов</h1>
+      </div>
+    </header>
+    <main class="container">
+      <form id="filter" action="#" method="post">
+        <h2>Стоимость:</h2>
+
+        <!-- Ползунок с ценой
+        <div>
+        </div>
+        -->
+
+        <h2>Сетка:</h2><br>
+        <label>
+          <input class="switch-filter" type="radio" value="">Адаптивная
+        </label><br>
+        <label>
+          <input class="switch-filter" type="radio" value="">Фиксированная
+        </label><br>
+        <label>
+          <input class="switch-filter" type="radio" value="">Резиновая
+        </label><br>
+        <h2>Особенности:</h2>
+        <label>
+          <input class="switch-filter" type="radio" value="">Слайдер
+        </label><br>
+        <label>
+          <input class="switch-filter" type="radio" value="">Блок преимуществ
+        </label><br>
+        <label>
+          <input class="switch-filter" type="radio" value="">Новости
+        </label><br>
+        <label>
+          <input class="switch-filter" type="radio" value="">Галерея
+        </label><br>
+        <label>
+          <input class="switch-filter" type="radio" value="">Корзина
+        </label><br>
+        <button class="btn" type="submit" form="filter">Показать</button>
+      </form>
+      <div class="catalog">
+        <div class="sorting">
+        <span>Сортировать:</span>
+        <a href="#">По цене</a>
+        <a href="#">По типу</a>
+        <a href="#">По функционалу</a>
+
+        <!-- Переключатели-треугольники
+        <span class="course">От большего к меньшему</span>
+        <span class="course">От меньшего к большему</span>
+        -->
+        </div>
+        <article class="catalog-item">
+          <a href="#">
+            <img src="img/catalog-item-1.jpg" alt="Товар-1" width="240" height="270">
+          </a>
+        </article>
+        <article class="catalog-item">
+          <a href="#">
+            <img src="img/catalog-item-2.jpg" alt="Товар-1" width="240" height="270">
+          </a>
+        </article>
+        <article class="catalog-item">
+          <a href="#">
+            <img src="img/catalog-item-3.jpg" alt="Товар-1" width="240" height="270">
+          </a>
+        </article>
+        <article class="catalog-item">
+          <a href="#">
+            <img src="img/catalog-item-4.jpg" alt="Товар-1" width="240" height="270">
+          </a>
+        </article>
+        <article class="catalog-item">
+          <a href="#">
+            <img src="img/catalog-item-5.jpg" alt="Товар-1" width="240" height="270">
+          </a>
+        </article>
+        <article class="catalog-item">
+          <a href="#">
+            <img src="img/catalog-item-6.jpg" alt="Товар-1" width="240" height="270">
+          </a>
+        </article>
+        <div class="switch-pages">
+          <a href="#">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">Следующая</a>
+        </div>
+      </div>
+    </main>
+    <footer class="main-footer">
+      <div class="container">
+        <div class="map">
+          <img src="img/map.jpg" alt="Где мы находимся" width="1199" height="416">
+        </div>
+        <div class="contacts">
+          <span class="subtitle">NЁRDS DESIGN STUDIO</span>
+          <p>191186, Санкт-Петербург,<br>
+            ул. Б. Конюшенная, д. 19/8<br><br>
+            тел. +7 (812) 275-75-75</p>
+          <a class="btn" href="#">Напишите нам</a>
+        </div>
+
+      <!-- Модальное окно начало -->
+
+        <div class="modal">
+          <form action="#" id="write-us">
+            <label>
+              Ваше имя:<br>
+              <input type="text" name="user" placeholder="Представьтесь, пожалуйста" required><br>
+            </label>
+            <label>
+              Ваш e–mail:<br>
+              <input type="email" name="e-mail" placeholder="Для отправки ответа" required><br>
+            </label>
+            <label>
+              Текст письма:<br>
+              <textarea placeholder="В свободной форме"></textarea><br>
+            </label>
+            <button class="btn" type="submit" form="write-us">Отправить</button>
+          </form>
+        </div>
+
+        <!-- Модальное окно конец -->
+
+        <div class="footer-social">
+          <a class="social-brn social-btn-vk" href="#">Вконтакте</a>
+          <a class="social-brn social-btn-fb" href="#">Фейсбук</a>
+          <a class="social-brn social-btn-inst" href="#">Инстаграм</a>
+        </div>
+        <div class="footer-promo">
+          <span class="title">Давайте дружить, это выгодно!</span>
+          <p>Скидка 10% для друзей из социальных сетей.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
