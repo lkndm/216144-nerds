@@ -5,6 +5,18 @@ body {
 	color: #283136;
 }
 
+h1 {
+  font-size: 40px;
+  line-height: auto;
+  color: #000000;
+}
+
+h2 {
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+}
+
 .title {
 	font-size: 36px;
 	line-height: 36px;
