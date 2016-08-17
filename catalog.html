@@ -33,7 +33,9 @@
         <div class="cart">
           <a href="#">Корзина</a>
         </div>
-        <h1>Добро пожаловать в магазин готовых макетов</h1>
+        <div class="header-title">
+          <h1>Добро пожаловать в магазин готовых макетов</h1>
+        </div>
       </div>
     </header>
     <main class="container">
@@ -45,36 +47,35 @@
         </div>
         -->
 
-        <h2>Сетка:</h2><br>
+        <h2>Сетка:</h2>
         <label>
-          <input class="switch-filter" type="radio" value="">Адаптивная
+          <input class="switch-filter" type="radio" name="grid" value="adaptive" checked>Адаптивная
         </label><br>
         <label>
-          <input class="switch-filter" type="radio" value="">Фиксированная
+          <input class="switch-filter" type="radio" name="grid" value="fixed">Фиксированная
         </label><br>
         <label>
-          <input class="switch-filter" type="radio" value="">Резиновая
+          <input class="switch-filter" type="radio" name="grid" value="stretching">Резиновая
         </label><br>
         <h2>Особенности:</h2>
         <label>
-          <input class="switch-filter" type="radio" value="">Слайдер
+          <input class="switch-filter" type="checkbox" name="features" value="slider" checked>Слайдер
         </label><br>
         <label>
-          <input class="switch-filter" type="radio" value="">Блок преимуществ
+          <input class="switch-filter" type="checkbox" name="features" value="advantages">Блок преимуществ
         </label><br>
         <label>
-          <input class="switch-filter" type="radio" value="">Новости
+          <input class="switch-filter" type="checkbox" name="features" value="news" checked>Новости
         </label><br>
         <label>
-          <input class="switch-filter" type="radio" value="">Галерея
+          <input class="switch-filter" type="checkbox" name="features" value="gallery">Галерея
         </label><br>
         <label>
-          <input class="switch-filter" type="radio" value="">Корзина
+          <input class="switch-filter" type="checkbox" name="features" value="cart">Корзина
         </label><br>
         <button class="btn" type="submit" form="filter">Показать</button>
       </form>
-      <div class="catalog">
-        <div class="sorting">
+      <div class="sorting">
         <span>Сортировать:</span>
         <a href="#">По цене</a>
         <a href="#">По типу</a>
@@ -84,37 +85,39 @@
         <span class="course">От большего к меньшему</span>
         <span class="course">От меньшего к большему</span>
         -->
+      </div>
+        <div class="catalog">
+          <article class="catalog-item">
+            <a href="#">
+              <img src="img/catalog-item-1.jpg" alt="Товар-1" width="240" height="270">
+            </a>
+          </article>
+          <article class="catalog-item">
+            <a href="#">
+              <img src="img/catalog-item-2.jpg" alt="Товар-1" width="240" height="270">
+            </a>
+          </article>
+          <article class="catalog-item">
+            <a href="#">
+              <img src="img/catalog-item-3.jpg" alt="Товар-1" width="240" height="270">
+            </a>
+          </article>
+          <article class="catalog-item">
+            <a href="#">
+              <img src="img/catalog-item-4.jpg" alt="Товар-1" width="240" height="270">
+            </a>
+          </article>
+          <article class="catalog-item">
+            <a href="#">
+              <img src="img/catalog-item-5.jpg" alt="Товар-1" width="240" height="270">
+            </a>
+          </article>
+          <article class="catalog-item">
+            <a href="#">
+              <img src="img/catalog-item-6.jpg" alt="Товар-1" width="240" height="270">
+            </a>
+          </article>
         </div>
-        <article class="catalog-item">
-          <a href="#">
-            <img src="img/catalog-item-1.jpg" alt="Товар-1" width="240" height="270">
-          </a>
-        </article>
-        <article class="catalog-item">
-          <a href="#">
-            <img src="img/catalog-item-2.jpg" alt="Товар-1" width="240" height="270">
-          </a>
-        </article>
-        <article class="catalog-item">
-          <a href="#">
-            <img src="img/catalog-item-3.jpg" alt="Товар-1" width="240" height="270">
-          </a>
-        </article>
-        <article class="catalog-item">
-          <a href="#">
-            <img src="img/catalog-item-4.jpg" alt="Товар-1" width="240" height="270">
-          </a>
-        </article>
-        <article class="catalog-item">
-          <a href="#">
-            <img src="img/catalog-item-5.jpg" alt="Товар-1" width="240" height="270">
-          </a>
-        </article>
-        <article class="catalog-item">
-          <a href="#">
-            <img src="img/catalog-item-6.jpg" alt="Товар-1" width="240" height="270">
-          </a>
-        </article>
         <div class="switch-pages">
           <a href="#">1</a>
           <a href="#">2</a>
@@ -123,18 +126,18 @@
         </div>
       </div>
     </main>
-    <footer class="main-footer">
+    <footer>
       <div class="map">
         <img src="img/map.jpg" alt="Где мы находимся" width="1199" height="416">
       </div>
-      <div class="container">
-        <div class="contacts">
+      <div class="contacts">
           <span class="subtitle">NЁRDS DESIGN STUDIO</span>
           <p>191186, Санкт-Петербург,<br>
             ул. Б. Конюшенная, д. 19/8<br><br>
             тел. +7 (812) 275-75-75</p>
           <a class="btn" href="#">Напишите нам</a>
         </div>
+      <div class="container">
         <div class="footer-social">
           <a class="social-brn social-btn-vk" href="#">Вконтакте</a>
           <a class="social-brn social-btn-fb" href="#">Фейсбук</a>
@@ -145,7 +148,7 @@
           <p>Скидка 10% для друзей из социальных сетей.</p>
         </div>
       </div>
-       <!-- Модальное окно начало -->
+         <!-- Модальное окно начало -->
 
         <div class="modal">
           <form action="#" id="write-us">
