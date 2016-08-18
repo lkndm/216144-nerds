@@ -17,21 +17,192 @@ h2 {
   color: #000000;
 }
 
-.title {
+.big-title {
 	font-size: 36px;
 	line-height: 36px;
-	color: #000000;
 }
 
-.subtitle {
-	font-size: 18px;
-	line-height: 30px;
+.small-title {
 	text-transform: uppercase;
-	color: #000000;
 }
 
-.list {
-	font-size: 16px;
-	line-height: 22px;
-	text-transform: uppercase;
+.lists {
+  font-size: 16px;
+  line-height: 22px;
+  width: 100%;
+  margin-bottom: 112px;
+}
+
+.lists-title {
+  text-transform: uppercase;
+}
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*remove after work with slider and modal window*/
+.display-none {
+  display: none;
+}
+/*****************************/
+
+.container {
+  width: 880px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.header-logo {
+  float: left;
+  width: 139px;
+  height: 56px;
+}
+
+.main-navigation {
+  float: left;
+  margin-left: 181px;
+  width: 400px;
+  min-height: 30px;
+}
+
+
+.nav-wrapper {
+  width: 880px;
+  min-height: 56px;
+  padding-top: 24px;
+  margin-bottom: 53px;
+}
+
+.desc {
+  float: left;
+  width: 380px;
+  min-height: 200px;
+  margin-right: 20px;
+}
+
+/* attention — sizes .radio-btns */
+.radio-btns {
+  float: left;
+  min-width: 60px;
+  min-height: 12px;
+  margin-top: 200px;
+}
+
+.inner {
+  float: right;
+  width: 338px;
+  height: 319px;
+}
+
+.slider {
+  width: 100%;
+  min-height: 300px;
+}
+
+main {
+  width: auto;
+  padding-top: 81px;
+  padding-bottom: 86px;
+}
+
+.services-item {
+  display: inline-block;
+  width: 240px;
+  min-height: 300px;
+  vertical-align: top;
+  margin-right: 80px;
+  font-size: 15px;
+}
+
+.services-item:last-child {
+  margin-right: 0px;
+}
+
+.services {
+  font-size: 0px;
+  margin-bottom: 153px;
+}
+
+
+
+.about-us-left {
+  float: left;
+  width: 580px;
+  min-height: 135px;
+}
+
+.about-us-right {
+  float: right;
+  width: 187px;
+  min-height: 75px;
+}
+
+.about-us {
+  width: 100%;
+  margin-bottom: 47px;
+}
+
+.list-left {
+  float: left;
+  width: 460px;
+  min-height: 150px;
+}
+
+.list-right {
+  float: right;
+  width: 232px;
+  min-height: 150px;
+}
+
+.clients {
+  width: 100%;
+  font-size: 0px;
+  margin-bottom: 35px;
+}
+
+.clients-item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 137px;
+}
+
+.clients-item:last-child {
+  margin-right: 0px;
+}
+
+
+.map {
+  width: 1199px;
+  height: 416px;
+  margin: 0 auto;
+}
+
+header {
+  width: auto;
+}
+
+footer {
+  width: auto;
+}
+
+.under-map {
+  box-sizing: border-box;
+  height: 216px;
+  padding: 60px 0;
+}
+
+.footer-social {
+  float: left;
+  width: 240px;
+  height: 63px;
+  margin-right: 80px;
+}
+
+.footer-promo {
+  float: left;
+  width: 550px;
+  min-height: 63px;
 }
