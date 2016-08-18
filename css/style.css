@@ -206,3 +206,62 @@ footer {
   width: 550px;
   min-height: 63px;
 }
+
+header h1 {
+  width: 650px;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+
+.grid-and-features {
+  float: left;
+  width: 240px;
+  min-height: 730px;
+  margin-top: -20px;
+}
+
+.catalog {
+  float: right;
+  width: 560px;
+  min-height: 970px;
+  font-size: 0px;
+}
+
+.sorting {
+  float: right;
+  width: 560px;
+  min-height: 12px;
+  margin-bottom: 15px;
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.catalog-item {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 80px;
+  margin-bottom: 80px;
+}
+
+.catalog-item:nth-child(even) {
+  margin-right: 0px;
+}
+
+main h2 {
+  text-transform: uppercase;
+}
+
+.switch-pages {
+  width: 283px;
+  min-height: 34px;
+  margin-left: 330px;
+}
+
+.sorting a {
+  display: inline-block;
+  margin-left: 40px;
+  color: #cccccc;
+}

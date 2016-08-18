@@ -7,85 +7,86 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <header class="main-header">
+    <header>
       <div class="container">
-        <div class="header-logo">
-          <a href="index.html">
-            <img src="img/header-logo.png" alt="Дизайн-студия «Нёрдс»" width="139" height="56">
-          </a>
+         <div class="nav-wrapper clearfix">
+          <div class="header-logo">
+            <a href="index.html">
+              <img src="img/header-logo.png" alt="Дизайн-студия «Нёрдс»" width="139" height="56">
+            </a>
+          </div>
+          <nav class="main-navigation">
+            <ul>
+              <li>
+                <a href="#">Студия</a>
+              </li>
+              <li>
+                <a href="#">Клиенты</a>
+              </li>
+              <li>
+                <a href="#">Магазин</a>
+              </li>
+              <li>
+                <a href="#">Контакты</a>
+              </li>
+              <li>
+                <a href="#">Корзина</a>
+              </li>
+            </ul>
+          </nav>
         </div>
-        <nav class="main-navigation">
-          <ul>
-            <li>
-              <a href="#">Студия</a>
-            </li>
-            <li>
-              <a href="#">Клиенты</a>
-            </li>
-            <li>
-              <a href="#">Магазин</a>
-            </li>
-            <li>
-              <a href="#">Контакты</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="cart">
-          <a href="#">Корзина</a>
-        </div>
-        <div class="header-title">
-          <h1>Добро пожаловать в магазин готовых макетов</h1>
-        </div>
+        <h1>Добро пожаловать в магазин готовых макетов</h1>
       </div>
     </header>
-    <main class="container">
-      <form id="filter" action="#" method="post">
-        <h2>Стоимость:</h2>
+    <main>
+      <div class="container clearfix">
+        <form class="grid-and-features" id="filter" action="#" method="post">
+          <h2>Стоимость:</h2>
 
         <!-- Ползунок с ценой
         <div>
         </div>
         -->
 
-        <h2>Сетка:</h2>
-        <label>
-          <input class="switch-filter" type="radio" name="grid" value="adaptive" checked>Адаптивная
-        </label><br>
-        <label>
-          <input class="switch-filter" type="radio" name="grid" value="fixed">Фиксированная
-        </label><br>
-        <label>
-          <input class="switch-filter" type="radio" name="grid" value="stretching">Резиновая
-        </label><br>
-        <h2>Особенности:</h2>
-        <label>
-          <input class="switch-filter" type="checkbox" name="features" value="slider" checked>Слайдер
-        </label><br>
-        <label>
-          <input class="switch-filter" type="checkbox" name="features" value="advantages">Блок преимуществ
-        </label><br>
-        <label>
-          <input class="switch-filter" type="checkbox" name="features" value="news" checked>Новости
-        </label><br>
-        <label>
-          <input class="switch-filter" type="checkbox" name="features" value="gallery">Галерея
-        </label><br>
-        <label>
-          <input class="switch-filter" type="checkbox" name="features" value="cart">Корзина
-        </label><br>
-        <button class="btn" type="submit" form="filter">Показать</button>
-      </form>
-      <div class="sorting">
-        <span>Сортировать:</span>
-        <a href="#">По цене</a>
-        <a href="#">По типу</a>
-        <a href="#">По функционалу</a>
+          <h2>Сетка:</h2>
+          <label>
+            <input class="switch-filter" type="radio" name="grid" value="adaptive" checked>Адаптивная
+          </label><br>
+          <label>
+            <input class="switch-filter" type="radio" name="grid" value="fixed">Фиксированная
+          </label><br>
+          <label>
+            <input class="switch-filter" type="radio" name="grid" value="stretching">Резиновая
+          </label><br>
+          <h2>Особенности:</h2>
+          <label>
+            <input class="switch-filter" type="checkbox" name="features" value="slider" checked>Слайдер
+          </label><br>
+          <label>
+            <input class="switch-filter" type="checkbox" name="features" value="advantages">Блок преимуществ
+          </label><br>
+          <label>
+            <input class="switch-filter" type="checkbox" name="features" value="news" checked>Новости
+          </label><br>
+          <label>
+            <input class="switch-filter" type="checkbox" name="features" value="gallery">Галерея
+          </label><br>
+          <label>
+            <input class="switch-filter" type="checkbox" name="features" value="cart">Корзина
+          </label><br>
+          <button class="btn" type="submit" form="filter">Показать</button>
+        </form>
+        <div class="sorting">
+          <span>Сортировать:</span>
+          <a href="#">По цене</a>
+          <a href="#">По типу</a>
+          <a href="#">По функционалу</a>
 
         <!-- Переключатели-треугольники
         <span class="course">От большего к меньшему</span>
         <span class="course">От меньшего к большему</span>
         -->
-      </div>
+        </div>
         <div class="catalog">
           <article class="catalog-item">
             <a href="#">
@@ -118,7 +119,7 @@
             </a>
           </article>
         </div>
-        <div class="switch-pages">
+        <div class="switch-pages clearfix">
           <a href="#">1</a>
           <a href="#">2</a>
           <a href="#">3</a>
@@ -126,31 +127,33 @@
         </div>
       </div>
     </main>
-    <footer>
+  <footer>
       <div class="map">
         <img src="img/map.jpg" alt="Где мы находимся" width="1199" height="416">
       </div>
-      <div class="contacts">
+      <div class="contacts display-none">
           <span class="subtitle">NЁRDS DESIGN STUDIO</span>
           <p>191186, Санкт-Петербург,<br>
             ул. Б. Конюшенная, д. 19/8<br><br>
             тел. +7 (812) 275-75-75</p>
           <a class="btn" href="#">Напишите нам</a>
         </div>
-      <div class="container">
-        <div class="footer-social">
-          <a class="social-brn social-btn-vk" href="#">Вконтакте</a>
-          <a class="social-brn social-btn-fb" href="#">Фейсбук</a>
-          <a class="social-brn social-btn-inst" href="#">Инстаграм</a>
-        </div>
-        <div class="footer-promo">
-          <span class="title">Давайте дружить, это выгодно!</span>
-          <p>Скидка 10% для друзей из социальных сетей.</p>
+      <div class="under-map">
+        <div class="container clearfix">
+          <div class="footer-social">
+            <a class="social-brn social-btn-vk" href="#">Вконтакте</a>
+            <a class="social-brn social-btn-fb" href="#">Фейсбук</a>
+            <a class="social-brn social-btn-inst" href="#">Инстаграм</a>
+          </div>
+          <div class="footer-promo">
+            <h2 class="big-title">Давайте дружить, это выгодно!</h2>
+            <p>Скидка 10% для друзей из социальных сетей.</p>
+          </div>
         </div>
       </div>
          <!-- Модальное окно начало -->
 
-        <div class="modal">
+        <div class="modal display-none">
           <form action="#" id="write-us">
             <label>
               Ваше имя:<br>
