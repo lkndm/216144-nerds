@@ -4,70 +4,70 @@
     <meta charset="UTF-8">
     <title>Дизайн-студия «Нёрдс»</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:500&subset=latin,cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <header>
-      <div class="container">
-        <div class="nav-wrapper clearfix">
-          <div class="header-logo">
-            <a href="index.html"></a>
-              <img src="img/header-logo.png" alt="Дизайн-студия «Нёрдс»" width="139" height="56">
-            </a>
-          </div>
-          <nav class="main-navigation">
-            <ul>
-              <li>
-                <a href="#">Студия</a>
-              </li>
-              <li>
-                <a href="#">Клиенты</a>
-              </li>
-              <li>
-                <a href="#">Магазин</a>
-              </li>
-              <li>
-                <a href="#">Контакты</a>
-              </li>
-              <li>
-                <a href="#">Корзина</a>
-              </li>
-            </ul>
-          </nav>
+    <header class="main-header">
+      <div class="container clearfix">
+        <div class="header-logo">
+          <a href="index.html"></a>
+            <img src="img/header-logo.png" alt="Дизайн-студия «Нёрдс»" width="139" height="56">
+          </a>
         </div>
-        <div class="slider clearfix">
-          <article class="desc">
-            <h2 class="big-title">Долго, дорого, скрупулезно.</h2>
-            <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
-            <a class="btn" href="#">Узнать больше</a>
-          </article>
-          <article class="desc display-none">
-            <h2 class="big-title">Любите ли вы математику, как любим ее мы?</h2>
-            <p>Нашим дизайнерам мы удаляем нейроны, ответственные за креатив, чтобы дать им возможность все просчитать</p>
-          </article>
-          <article class="desc display-none">
-            <h2 class="big-title">Только наркотики, только хардкор!</h2>
-            <p>Все дизайнерские решения в нашей компании принимаются только под воздействием качественных галлюциногенов</p>
-          </article>
+        <nav class="main-navigation">
+          <ul>
+            <li>
+              <a href="#">Студия</a>
+            </li>
+            <li>
+              <a href="#clients">Клиенты</a>
+            </li>
+            <li>
+              <a href="#shop">Магазин</a>
+            </li>
+            <li>
+              <a href="#contacts">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="cart">
+          <a href="#">Корзина</a>
+        </div>
+      </div>
+      <div class="container clearfix">
+        <article class="desc">
+          <h2 class="big-title">Долго, дорого, скрупулезно.</h2>
+          <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+          <a class="btn" href="#">Узнать больше</a>
+        </article>
+        <article class="desc display-none">
+          <h2 class="big-title">Любите ли вы математику, как любим ее мы?</h2>
+          <p>Нашим дизайнерам мы удаляем нейроны, ответственные за креатив, чтобы дать им возможность все просчитать</p>
+        </article>
+        <article class="desc display-none">
+          <h2 class="big-title">Только наркотики, только хардкор!</h2>
+          <p>Все дизайнерские решения в нашей компании принимаются только под воздействием качественных галлюциногенов</p>
+        </article>
 
         <!--Радиобатоны-->
-          <div class="radio-btns">
-            <input type=radio name="slider" id="slide_1" checked>
-            <input type=radio name="slider" id="slide_2">
-            <input type=radio name="slider" id="slide_3">
-          </div>
+        <div class="radio-btns">
+          <input type=radio name="slider" id="slide_1" checked>
+          <input type=radio name="slider" id="slide_2">
+          <input type=radio name="slider" id="slide_3">
+        </div>
         <!--Сам слайдер-->
-          <div class="inner">
-            <article>
-              <img src="img/slider-img-1.png" alt="" width="338" height="231">
-            </article>
-            <article class="display-none">
-              <img src="img/slider-img-2.png" alt="" width="230" height="249">
-            </article>
-            <article class="display-none">
-              <img src="img/slider-img-3.png" alt="" width="333" height="319">
-            </article>
-          </div>
+        <div class="inner">
+          <article>
+            <img src="img/slider-img-1.png" alt="" width="338" height="231">
+          </article>
+          <article class="display-none">
+            <img src="img/slider-img-2.png" alt="" width="230" height="249">
+          </article>
+          <article class="display-none">
+            <img src="img/slider-img-3.png" alt="" width="333" height="319">
+          </article>
+        </div>
 
         <!--Контроллеры и активаторы
 
@@ -83,28 +83,26 @@
           </div> -->
       </div>
     </header>
-    <main>
+    <main class="content" id="shop">
       <div class="container clearfix">
-        <div class="services">
-          <article class="services-item">
-            <img src="img/web-sites.png" alt="Веб–сайты" width="240" height="124">
-            <h2 class="small-title">Веб-сайты</h2>
-            <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-            <a class="btn" href="#">Заказать</a>
-          </article>
-          <article class="services-item">
-            <img src="img/apps.png" alt="Приложения" width="240" height="124">
-            <h2 class="small-title">Приложения</h2>
-            <p>Покорите топ-10 приложений в AppStrore и Google Play</p>
-            <a class="btn" href="#">Заказать</a>
-          </article>
-          <article class="services-item">
-            <img src="img/presentations.png" alt="Веб–сайты" width="240" height="124">
-            <h2 class="small-title">Презентации</h2>
-            <p>Вы даже не подозреваете, насколько вы изумительны!</p>
-            <a class="btn" href="#">Заказать</a>
-          </article>
-        </div>
+        <article class="services-item">
+          <img src="img/web-sites.png" alt="Веб–сайты" width="240" height="124">
+          <h2 class="small-title">Веб-сайты</h2>
+          <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+          <a class="btn" href="#">Заказать</a>
+        </article>
+        <article class="services-item">
+          <img src="img/apps.png" alt="Приложения" width="240" height="124">
+          <h2 class="small-title">Приложения</h2>
+          <p>Покорите топ-10 приложений в AppStrore и Google Play</p>
+          <a class="btn" href="#">Заказать</a>
+        </article>
+        <article class="services-item">
+          <img src="img/presentations.png" alt="Веб–сайты" width="240" height="124">
+          <h2 class="small-title">Презентации</h2>
+          <p>Вы даже не подозреваете, насколько вы изумительны</p>
+          <a class="btn" href="#">Заказать</a>
+        </article>
       </div>
       <div class="container">
         <div class="about-us clearfix">
@@ -117,7 +115,7 @@
             <span class="foundation">Since 2004</span>
           </div>
         </div>
-        <div class="lists clearfix">
+        <div class="lists clearfix" id="clients">
           <div class="list-left">
             <p class="lists-title">Выполняем заказы на разработку:</p>
             <ul>
@@ -137,20 +135,18 @@
         </div>
       </div>
       <div class="container">
-        <div class="clients">
-          <a class="clients-item" href="#">
-            <img src="img/clients-1-standart.png" alt="AGlukhanko" width="198" height="37">
-          </a>
-          <a class="clients-item" href="#">
-            <img src="img/clients-2-standart.png" alt="htmlacademy" width="199" height="68">
-          </a>
-          <a class="clients-item" href="#">
-          <img src="img/clients-3-standart.png" alt="Borodinsky" width="209" height="86">
-          </a>
-        </div>
+        <a class="clients-item" href="#">
+          <img src="img/clients-1-standart.png" alt="AGlukhanko" width="198" height="37">
+        </a>
+        <a class="clients-item" href="#">
+          <img src="img/clients-2-standart.png" alt="htmlacademy" width="199" height="68">
+        </a>
+        <a class="clients-item" href="#">
+        <img src="img/clients-3-standart.png" alt="Borodinsky" width="209" height="86">
+        </a>
       </div>
     </main>
-    <footer>
+    <footer class="main-footer" id="contacts">
       <div class="map">
         <img src="img/map.jpg" alt="Где мы находимся" width="1199" height="416">
       </div>

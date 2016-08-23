@@ -59,13 +59,17 @@ h2 {
   float: left;
   width: 139px;
   height: 56px;
+  margin-top: 27px;
+  margin-bottom: 53px;
 }
 
 .main-navigation {
   float: left;
-  margin-left: 181px;
-  width: 400px;
+  margin-left: 180px;
+  min-width: 400px;
   min-height: 30px;
+  margin-top: 50px;
+  margin-bottom: 51px;
 }
 
 
@@ -97,24 +101,14 @@ h2 {
   height: 319px;
 }
 
-.slider {
-  width: 100%;
-  min-height: 300px;
-}
-
-main {
-  width: auto;
-  padding-top: 81px;
-  padding-bottom: 86px;
-}
-
 .services-item {
   display: inline-block;
+  vertical-align: top;
   width: 240px;
   min-height: 300px;
   vertical-align: top;
   margin-right: 80px;
-  font-size: 15px;
+  margin-bottom: 153px;
 }
 
 .services-item:last-child {
@@ -166,7 +160,8 @@ main {
 .clients-item {
   display: inline-block;
   vertical-align: middle;
-  margin-right: 137px;
+  margin-right: 133px;
+  margin-bottom: 35px;
 }
 
 .clients-item:last-child {
@@ -178,14 +173,6 @@ main {
   width: 1199px;
   height: 416px;
   margin: 0 auto;
-}
-
-header {
-  width: auto;
-}
-
-footer {
-  width: auto;
 }
 
 .under-map {
@@ -264,4 +251,89 @@ main h2 {
   display: inline-block;
   margin-left: 40px;
   color: #cccccc;
+}
+
+.main-footer {
+  width: auto;
+}
+
+.main-header {
+  width: auto;
+  background-color: #eeeeee;
+}
+
+.content {
+  width: auto;
+  padding-top: 81px;
+  padding-bottom: 86px;
+}
+
+.cart {
+  float: right;
+  min-height: 30px;
+  max-width: 100px;
+  margin-top: 50px;
+  margin-bottom: 51px;
+}
+
+.cart a{
+  display: block;
+  padding: 4px 4px;
+  text-decoration: none;
+  color: #000000;
+  font-size: 14px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.main-navigation a {
+  display: block;
+  padding: 4px 4px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.main-navigation a:last-child {
+  margin-right: 0px;
+}
+
+.cart a:hover, .main-navigation a:hover {
+  color: #fb565a;
+}
+
+.main-navigation a:active, .cart a:active {
+  color: #8f8f8f;
+}
+
+.main-navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0;
+}
+
+.main-navigation li {
+  display: inline-block;
+  margin-right: 40px;
+  vertical-align: top;
+  font-size: 14px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.btn {
+  display: inline-block;
+  vertical-align: bottom;
+  padding: 11px 40px;
+  background-color: #fb565a;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  font-family: inherit;
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: uppercase;
+  border-radius: 5px;
 }
