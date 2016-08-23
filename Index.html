@@ -89,7 +89,7 @@
           <img src="img/web-sites.png" alt="Веб–сайты" width="240" height="124">
           <h2 class="small-title">Веб-сайты</h2>
           <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-          <a class="btn" href="#">Заказать</a>
+          <a class="btn btn-red" href="#">Заказать</a>
         </article>
         <article class="services-item">
           <img src="img/apps.png" alt="Приложения" width="240" height="124">
@@ -134,7 +134,6 @@
           </div>
         </div>
       </div>
-      <div class="overline"></div>
       <div class="container">
         <a class="clients-item" href="#">
           <img src="img/clients-1-standart.png" alt="AGlukhanko" width="198" height="37">
@@ -146,25 +145,28 @@
         <img src="img/clients-3-standart.png" alt="Borodinsky" width="209" height="86">
         </a>
       </div>
-      <div class="underline"></div>
+      <div class="container">
+        <span class="overline"></span>
+        <span class="underline"></span>
+      </div>
     </main>
     <footer class="main-footer" id="contacts">
       <div class="map">
         <img src="img/map.jpg" alt="Где мы находимся" width="1199" height="416">
-      </div>
-      <div class="contacts display-none">
+        <div class="contacts">
           <span class="subtitle">NЁRDS DESIGN STUDIO</span>
-          <p>191186, Санкт-Петербург,<br>
+          <p>191186, Санкт-Петербург,
             ул. Б. Конюшенная, д. 19/8<br><br>
             тел. +7 (812) 275-75-75</p>
           <a class="btn" href="#">Напишите нам</a>
         </div>
+      </div>
       <div class="under-map">
         <div class="container clearfix">
           <div class="footer-social">
-            <a class="social-brn social-btn-vk" href="#">Вконтакте</a>
-            <a class="social-brn social-btn-fb" href="#">Фейсбук</a>
-            <a class="social-brn social-btn-inst" href="#">Инстаграм</a>
+            <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+            <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+            <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
           </div>
           <div class="footer-promo">
             <h2 class="big-title">Давайте дружить, это выгодно!</h2>
@@ -174,19 +176,19 @@
       </div>
          <!-- Модальное окно начало -->
 
-        <div class="modal display-none">
+        <div class="modal clearfix">
           <form action="#" id="write-us">
             <label>
-              Ваше имя:<br>
-              <input type="text" name="user" placeholder="Представьтесь, пожалуйста" required><br>
+              <p>Ваше имя:</p>
+              <input type="text" name="user" placeholder="Представьтесь, пожалуйста" required>
             </label>
             <label>
-              Ваш e–mail:<br>
-              <input type="email" name="e-mail" placeholder="Для отправки ответа" required><br>
+              <p>Ваш e–mail:</p>
+              <input type="email" name="e-mail" placeholder="Для отправки ответа" required>
             </label>
             <label>
-              Текст письма:<br>
-              <textarea placeholder="В свободной форме"></textarea><br>
+              <p>Текст письма:</p>
+              <textarea placeholder="В свободной форме"></textarea>
             </label>
             <button class="btn" type="submit" form="write-us">Отправить</button>
           </form>
