@@ -203,12 +203,15 @@ h2 {
   margin-top: 47px;
 }
 
-header h1 {
+.main-header h1 {
   width: 650px;
   margin: 0 auto;
   text-align: center;
   text-transform: uppercase;
   line-height: 1.5;
+  padding-top: 11px;
+  padding-bottom: 82px;
+  font-weight: normal;
 }
 
 .grid-and-features {
@@ -233,6 +236,7 @@ header h1 {
   font-size: 12px;
   line-height: 18px;
   text-transform: uppercase;
+  position: relative;
 }
 
 .catalog-item {
@@ -246,7 +250,7 @@ header h1 {
   margin-right: 0px;
 }
 
-main h2 {
+.content h2 {
   text-transform: uppercase;
 }
 
@@ -258,8 +262,70 @@ main h2 {
 
 .sorting a {
   display: inline-block;
-  margin-left: 40px;
+  vertical-align: top;
+  margin-right:40px;
   color: #cccccc;
+  text-decoration: none;
+  border-bottom: 2px dotted #00ca74;
+}
+
+.sorting a:last-child {
+  margin-right: 0;
+}
+
+.sorting a:first-child {
+  border: none;
+  color: #000000;
+  cursor: default;
+}
+
+.sorting a:hover:first-child {
+  border: none;
+}
+
+.sorting a:hover {
+  border-bottom: 2px solid #00ca74;
+}
+
+.sorting a:active {
+  border-bottom: none;
+}
+
+.course-up {
+  content: "";
+  position: absolute;
+  right: 20px;
+  top: 1px;
+  border: 10px solid transparent;
+  border-top: 15px solid #c1c1c1;
+  cursor: pointer;
+}
+
+.course-down {
+  content: "";
+  vertical-align: top;
+  position: absolute;
+  right: 0px;
+  top: -9px;
+  border: 10px solid transparent;
+  border-bottom: 15px solid #c1c1c1;
+  cursor: pointer;
+}
+
+.course-down:hover {
+  border-bottom: 15px solid #b5b5b5;
+}
+
+.course-up:hover {
+  border-top: 15px solid #b5b5b5;
+}
+
+.course-up:active {
+  border-top: 15px solid #000000;
+}
+
+.course-down:active {
+  border-bottom: 15px solid #000000;
 }
 
 .main-footer {
@@ -270,7 +336,7 @@ main h2 {
 .main-header {
   width: auto;
   background-color: #eeeeee;
-  margin-bottom: 81px;
+  margin-bottom: 74px;
 }
 
 .content {
@@ -346,6 +412,8 @@ main h2 {
   line-height: 18px;
   text-transform: uppercase;
   border-radius: 2px;
+  border: none;
+  outline: none;
 }
 
 .services-item p {
