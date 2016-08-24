@@ -48,30 +48,23 @@
         -->
 
           <h2>Сетка:</h2>
-          <label>
-            <input class="switch-filter" type="radio" name="grid" value="adaptive" checked>Адаптивная
-          </label><br>
-          <label>
-            <input class="switch-filter" type="radio" name="grid" value="fixed">Фиксированная
-          </label><br>
-          <label>
-            <input class="switch-filter" type="radio" name="grid" value="stretching">Резиновая
-          </label><br>
+          <input class="switch-filter" id="adaptive" type="radio" name="grid" value="adaptive" checked>
+          <label for="adaptive">Адаптивная</label><br>
+          <input class="switch-filter" type="radio" name="grid" id="fixed" value="fixed">
+          <label for="fixed">Фиксированная</label><br>
+          <input class="switch-filter" type="radio" name="grid" id="stretching" value="stretching">
+          <label for="stretching">Резиновая</label><br>
           <h2>Особенности:</h2>
-          <label>
-            <input class="switch-filter" type="checkbox" name="features" value="slider" checked>Слайдер
-          </label><br>
-          <label>
-            <input class="switch-filter" type="checkbox" name="features" value="advantages">Блок преимуществ
-          </label><br>
-          <label>
-            <input class="switch-filter" type="checkbox" name="features" value="news" checked>Новости
-          </label><br>
-          <label>
-            <input class="switch-filter" type="checkbox" name="features" value="gallery">Галерея
-          </label><br>
-          <label>
-            <input class="switch-filter" type="checkbox" name="features" value="cart">Корзина
+          <input class="switch-filter" type="checkbox" name="features" id="slider" value="slider" checked>
+          <label for="slider">Слайдер</label><br>
+          <input class="switch-filter" type="checkbox" name="features" id="advantages" value="advantages">
+          <label for="advantages">Блок преимуществ</label><br>
+          <input class="switch-filter" type="checkbox" name="features" id="news" value="news" checked>
+          <label for="news">Новости</label><br>
+          <input class="switch-filter" type="checkbox" name="features" id="gallery" value="gallery">
+          <label for="gallery">Галерея</label><br>
+          <input class="switch-filter" type="checkbox" name="features" id="cart" value="cart">
+          <label for="cart">Корзина
           </label><br>
           <button class="btn" type="submit" form="filter">Показать</button>
         </form>
@@ -85,37 +78,103 @@
         </div>
         <div class="catalog">
           <article class="catalog-item">
+            <div class="circle">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
             <a href="#">
               <img src="img/catalog-item-1.jpg" alt="Товар-1" width="240" height="270">
             </a>
+            <div class="hover-card">
+              <h2><a href="#">Aviator</a></h2>
+              <p>Одностраничный макет
+с авторским дизайном</p>
+              <a class="btn" href="#">8000 Р.</a>
+            </div>
           </article>
           <article class="catalog-item">
+            <div class="circle">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
             <a href="#">
               <img src="img/catalog-item-2.jpg" alt="Товар-1" width="240" height="270">
             </a>
+            <div class="hover-card">
+              <h2><a href="#">Aviator</a></h2>
+              <p>Одностраничный макет
+с авторским дизайном</p>
+              <a class="btn" href="#">8000 Р.</a>
+            </div>
           </article>
           <article class="catalog-item">
+            <div class="circle">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
             <a href="#">
               <img src="img/catalog-item-3.jpg" alt="Товар-1" width="240" height="270">
             </a>
+            <div class="hover-card">
+              <h2><a href="#">Aviator</a></h2>
+              <p>Одностраничный макет
+с авторским дизайном</p>
+              <a class="btn" href="#">8000 Р.</a>
+            </div>
           </article>
           <article class="catalog-item">
+            <div class="circle">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
             <a href="#">
               <img src="img/catalog-item-4.jpg" alt="Товар-1" width="240" height="270">
             </a>
+            <div class="hover-card">
+              <h2><a href="#">Aviator</a></h2>
+              <p>Одностраничный макет
+с авторским дизайном</p>
+              <a class="btn" href="#">8000 Р.</a>
+            </div>
           </article>
           <article class="catalog-item">
+            <div class="circle">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
             <a href="#">
               <img src="img/catalog-item-5.jpg" alt="Товар-1" width="240" height="270">
             </a>
+            <div class="hover-card">
+              <h2><a href="#">Aviator</a></h2>
+              <p>Одностраничный макет
+с авторским дизайном</p>
+              <a class="btn" href="#">8000 Р.</a>
+            </div>
           </article>
           <article class="catalog-item">
+            <div class="circle">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
             <a href="#">
               <img src="img/catalog-item-6.jpg" alt="Товар-1" width="240" height="270">
             </a>
+            <div class="hover-card">
+              <h2><a href="#">Aviator</a></h2>
+              <p>Одностраничный макет
+с авторским дизайном</p>
+              <a class="btn" href="#">8000 Р.</a>
+            </div>
           </article>
         </div>
-        <div class="switch-pages clearfix">
+        <div class="switch-pages">
           <a href="#">1</a>
           <a href="#">2</a>
           <a href="#">3</a>

@@ -232,7 +232,7 @@ h2 {
   float: right;
   width: 560px;
   min-height: 12px;
-  margin-bottom: 15px;
+  margin-bottom: 50px;
   font-size: 12px;
   line-height: 18px;
   text-transform: uppercase;
@@ -244,6 +244,9 @@ h2 {
   vertical-align: top;
   margin-right: 80px;
   margin-bottom: 80px;
+  width: 240px;
+  height: 270px;
+  position: relative;
 }
 
 .catalog-item:nth-child(even) {
@@ -255,9 +258,35 @@ h2 {
 }
 
 .switch-pages {
-  width: 283px;
-  min-height: 34px;
   margin-left: 330px;
+  font-size: 0px;
+  min-width: 284px;
+}
+
+.switch-pages a {
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #f1f1f1;
+  text-decoration: none;
+  color: #000000;
+  font-size: 12px;
+  line-height: 18px;
+  margin-right: 10px;
+  min-width: 38px;
+  height: 38px;
+  text-align: center;
+  padding: 11px 16px;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+.switch-pages a:hover {
+  background-color: #e5e5e5;
+}
+
+.switch-pages a:active {
+  background-color: #d5d5d5;
+  box-shadow: 0 3px 0 0 #b5b5b5 inset;
 }
 
 .sorting a {
@@ -760,4 +789,92 @@ h2 {
   width: 15px;
   height: 15px;
   background-position: -5px -30px;
+}
+
+.circle {
+  position: absolute;
+  width: 240px;
+  height: 30px;
+  background-color: #eeeeee;
+  top:-30px;
+  left: 0px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  z-index: 10;
+}
+
+.circle span {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  background-color: #ffffff;
+  z-index: 20;
+  border-radius: 50%;
+  margin-right: 8px;
+  top: 10px;
+  left: 13px;
+}
+
+.circle span:nth-child(2) {
+  left: 30px;
+}
+
+.circle span:nth-child(3) {
+  left: 47px;
+}
+
+.circle:hover {
+  background-color: #797979;
+}
+
+.hover-card {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 200px;
+  background-color: #ffffff;
+}
+
+.hover-card h2 {
+  font-size: 18px;
+  line-height: 9px;
+  color: #000000;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 35px;
+}
+
+.hover-card h2 a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.hover-card p {
+  font-size: 14px;
+  line-height: 18px;
+  color: #283136;
+  margin-top: 18px;
+  margin-left: 20px;
+  max-width: 160px;
+}
+
+.hover-card .btn {
+  box-sizing: border-box;
+  margin-top: 17px;
+  margin-left: 40px;
+}
+
+.hover-card .btn:hover {
+  background-color: #d6494d;
+}
+
+.hover-card .btn:active {
+  background-color: #b63538;
+  box-shadow: 0 2px 0 0 #9b2d30 inset;
 }
