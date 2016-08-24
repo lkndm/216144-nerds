@@ -279,11 +279,13 @@ main h2 {
 }
 
 .cart {
-  float: right;
+  display: inline-block;
   min-height: 30px;
   max-width: 100px;
   margin-top: 50px;
   margin-bottom: 51px;
+  padding-left: 28px;
+  position: relative;
 }
 
 .cart a{
@@ -445,21 +447,16 @@ main h2 {
   background-color: #fb565a;
 }
 
-
-
-
-
-
 .social-btn {
   display: inline-block;
   vertical-align: top;
   font-size: 0;
   margin-right: 30px;
-  text-decoration: none;
   width: 60px;
   height: 60px;
   background-color: #e1e1e1;
   border-radius: 50%;
+  position: relative;
 }
 
 .social-btn:last-child {
@@ -542,12 +539,13 @@ main h2 {
 }
 
 .modal {
+  position: relative;
   box-sizing: border-box;
   padding-top: 55px;
-  padding-left: 81px;
+  padding-left: 80px;
   padding-right: 90px;
   padding-bottom: 50px;
-  width: 630px;
+  max-width: 630px;
   height: 420px;
   background-color: #ffffff;
   box-shadow: 0 20px 40px 0 rgba(0, 1, 1, 0.75);
@@ -568,7 +566,6 @@ main h2 {
   width: 221px;
   height: 40px;
   padding: 10px 16px;
-  margin-right: 5px;
 }
 
 .modal textarea {
@@ -601,13 +598,98 @@ main h2 {
 
 .modal form {
   font-size: 0;
+  width: 460px;
 }
 
 .modal label {
   display: inline-block;
-  margin-right: 13px;
+  margin-right: 18px;
 }
 
 .modal label:nth-child(2) {
   margin-right: 0;
+}
+
+.modal span {
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  background-color: #fb565a;
+  top: 5px;
+  right: 5px;
+  border-radius: 50%;
+}
+
+.modal span:before {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  content: "";
+  width: 21px;
+  height: 3px;
+  background-color: #ffffff;
+  transform: rotate(45deg)
+}
+
+.modal span:after {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  content: "";
+  width: 21px;
+  height: 3px;
+  background-color: #ffffff;
+  transform: rotate(-45deg)
+}
+
+.social-btn:before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url("../img/sprite.png");
+  background-repeat: no-repeat;
+}
+
+.social-btn-vk:before {
+  width: 26px;
+  height: 15px;
+  background-position: -5px -143px;
+}
+
+.social-btn-fb:before {
+  width: 12px;
+  height: 22px;
+  background-position: -5px -80px;
+}
+
+.social-btn-inst:before {
+  width: 21px;
+  height: 21px;
+  background-position: -5px -112px;
+}
+
+.cart a:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  background: url("../img/sprite.png") no-repeat #eeeeee;
+  transform: translate(-50%, -50%);
+  width: 15px;
+  height: 15px;
+  background-position: -5px -5px;
+}
+
+.cart a:hover:before {
+  width: 15px;
+  height: 15px;
+  background-position: -5px -55px;
+}
+
+.cart a:active:before {
+  width: 15px;
+  height: 15px;
+  background-position: -5px -30px;
 }
