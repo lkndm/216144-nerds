@@ -124,12 +124,14 @@ h2 {
   margin-bottom: 153px;
 }
 
-
-
 .about-us-left {
   float: left;
   width: 620px;
   min-height: 135px;
+}
+
+.about-us-left .big-title {
+  text-transform: none;
 }
 
 .about-us-right {
@@ -184,6 +186,14 @@ h2 {
 
 .clients-item:last-child {
   margin-right: 0px;
+}
+
+.clients-item img {
+  opacity: 0.2;
+}
+
+.clients-item img:hover, .clients-item img:active {
+  opacity: 1;
 }
 
 .map {
