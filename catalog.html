@@ -39,14 +39,31 @@
     </header>
     <main class="content">
       <div class="container clearfix">
-        <form class="grid-and-features" id="filter" action="#" method="post">
+        <form class="grid-and-features" id="filter" action="form.php" method="get">
           <h2>Стоимость:</h2>
+          <div class="range-filter">
+            <div class="range-controls">
+              <div class="scale">
+                <div class="bar">
 
-        <!-- Ползунок с ценой
-        <div>
-        </div>
-        -->
+                </div>
+                <div class="toggle toggle-min">
 
+                </div>
+                <div class="toggle toggle-max">
+
+                </div>
+              </div>
+            </div>
+            <div class="price-controls">
+              <label class"min-price">от
+                <input name="min-price" type="text" value="0">
+              </label>
+              <label class="max-price">до
+                <input type="text" name="max-price" value="15000">
+              </label>
+            </div>
+          </div>
           <h2>Сетка:</h2>
           <input id="adaptive" type="radio" name="grid" value="adaptive" checked>
           <label for="adaptive">Адаптивная</label>
@@ -73,7 +90,7 @@
           <a href="#">По цене</a>
           <a href="#">По типу</a>
           <a href="#">По функционалу</a>
-          <span class="course-up"></span>
+          <span class="course-up active"></span>
           <span class="course-down"></span>
         </div>
         <div class="catalog">
@@ -88,8 +105,7 @@
             </a>
             <div class="hover-card">
               <h2><a href="#">Aviator</a></h2>
-              <p>Одностраничный макет
-с авторским дизайном</p>
+              <p>Одностраничный макет с авторским дизайном</p>
               <a class="btn" href="#">8000 Р.</a>
             </div>
           </article>
@@ -104,8 +120,7 @@
             </a>
             <div class="hover-card">
               <h2><a href="#">Aviator</a></h2>
-              <p>Одностраничный макет
-с авторским дизайном</p>
+              <p>Одностраничный макет с авторским дизайном</p>
               <a class="btn" href="#">8000 Р.</a>
             </div>
           </article>
@@ -120,8 +135,7 @@
             </a>
             <div class="hover-card">
               <h2><a href="#">Aviator</a></h2>
-              <p>Одностраничный макет
-с авторским дизайном</p>
+              <p>Одностраничный макет с авторским дизайном</p>
               <a class="btn" href="#">8000 Р.</a>
             </div>
           </article>
@@ -136,8 +150,7 @@
             </a>
             <div class="hover-card">
               <h2><a href="#">Aviator</a></h2>
-              <p>Одностраничный макет
-с авторским дизайном</p>
+              <p>Одностраничный макет с авторским дизайном</p>
               <a class="btn" href="#">8000 Р.</a>
             </div>
           </article>
@@ -152,8 +165,7 @@
             </a>
             <div class="hover-card">
               <h2><a href="#">Aviator</a></h2>
-              <p>Одностраничный макет
-с авторским дизайном</p>
+              <p>Одностраничный макет с авторским дизайном</p>
               <a class="btn" href="#">8000 Р.</a>
             </div>
           </article>
@@ -168,8 +180,7 @@
             </a>
             <div class="hover-card">
               <h2><a href="#">Aviator</a></h2>
-              <p>Одностраничный макет
-с авторским дизайном</p>
+              <p>Одностраничный макет с авторским дизайном</p>
               <a class="btn" href="#">8000 Р.</a>
             </div>
           </article>
