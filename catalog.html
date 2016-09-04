@@ -104,7 +104,7 @@
               <img src="img/catalog-item-1.jpg" alt="Товар-1" width="240" height="270">
             </a>
             <div class="hover-card">
-              <h2><a href="#">Aviator</a></h2>
+              <h2><a class="hover-card-title" href="#">Aviator</a></h2>
               <p>Одностраничный макет с авторским дизайном</p>
               <a class="btn" href="#">8000 Р.</a>
             </div>
@@ -116,11 +116,56 @@
               <span></span>
             </div>
             <a href="#">
-              <img src="img/catalog-item-2.jpg" alt="Товар-1" width="240" height="270">
+              <img src="img/catalog-item-2.jpg" alt="Товар-2" width="240" height="270">
             </a>
             <div class="hover-card">
-              <h2><a href="#">Aviator</a></h2>
-              <p>Одностраничный макет с авторским дизайном</p>
+              <h2><a class="hover-card-title" href="#">Sunset</a></h2>
+              <p>Интернет-магазин с личным кабинетом</p>
+              <a class="btn" href="#">10000 Р.</a>
+            </div>
+          </article>
+          <article class="catalog-item">
+            <div class="circle">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <a href="#">
+              <img src="img/catalog-item-3.jpg" alt="Товар-3" width="240" height="270">
+            </a>
+            <div class="hover-card">
+              <h2><a class="hover-card-title" href="#">FORTE</a></h2>
+              <p>Отличный макет для личного блога</p>
+              <a class="btn" href="#">5000 Р.</a>
+            </div>
+          </article>
+          <article class="catalog-item">
+            <div class="circle">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <a href="#">
+              <img src="img/catalog-item-4.jpg" alt="Товар-4" width="240" height="270">
+            </a>
+            <div class="hover-card">
+              <h2><a class="hover-card-title" href="#">Modern Organic THAI</a></h2>
+              <p>Сайт для ресторана быстрого питания</p>
+              <a class="btn" href="#">12000 Р.</a>
+            </div>
+          </article>
+          <article class="catalog-item">
+            <div class="circle">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <a href="#">
+              <img src="img/catalog-item-5.jpg" alt="Товар-5" width="240" height="270">
+            </a>
+            <div class="hover-card">
+              <h2><a class="hover-card-title" href="#">AVENUE</a></h2>
+              <p>Макет для блога о путешествиях</p>
               <a class="btn" href="#">8000 Р.</a>
             </div>
           </article>
@@ -131,62 +176,17 @@
               <span></span>
             </div>
             <a href="#">
-              <img src="img/catalog-item-3.jpg" alt="Товар-1" width="240" height="270">
+              <img src="img/catalog-item-6.jpg" alt="Товар-6" width="240" height="270">
             </a>
             <div class="hover-card">
-              <h2><a href="#">Aviator</a></h2>
-              <p>Одностраничный макет с авторским дизайном</p>
-              <a class="btn" href="#">8000 Р.</a>
-            </div>
-          </article>
-          <article class="catalog-item">
-            <div class="circle">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-            <a href="#">
-              <img src="img/catalog-item-4.jpg" alt="Товар-1" width="240" height="270">
-            </a>
-            <div class="hover-card">
-              <h2><a href="#">Aviator</a></h2>
-              <p>Одностраничный макет с авторским дизайном</p>
-              <a class="btn" href="#">8000 Р.</a>
-            </div>
-          </article>
-          <article class="catalog-item">
-            <div class="circle">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-            <a href="#">
-              <img src="img/catalog-item-5.jpg" alt="Товар-1" width="240" height="270">
-            </a>
-            <div class="hover-card">
-              <h2><a href="#">Aviator</a></h2>
-              <p>Одностраничный макет с авторским дизайном</p>
-              <a class="btn" href="#">8000 Р.</a>
-            </div>
-          </article>
-          <article class="catalog-item">
-            <div class="circle">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-            <a href="#">
-              <img src="img/catalog-item-6.jpg" alt="Товар-1" width="240" height="270">
-            </a>
-            <div class="hover-card">
-              <h2><a href="#">Aviator</a></h2>
-              <p>Одностраничный макет с авторским дизайном</p>
-              <a class="btn" href="#">8000 Р.</a>
+              <h2><a class="hover-card-title" href="#">DOVETAIL</a></h2>
+              <p>Интернет-магазин с галереей товаров</p>
+              <a class="btn" href="#">14000 Р.</a>
             </div>
           </article>
         </div>
         <div class="switch-pages">
-          <a href="#">1</a>
+          <a class="active">1</a>
           <a href="#">2</a>
           <a href="#">3</a>
           <a href="#">Следующая</a>
@@ -220,7 +220,7 @@
          <!-- Модальное окно начало -->
 
         <div class="modal clearfix">
-          <form action="#" id="write-us">
+          <form action="form.php" id="write-us">
             <label>
               <p>Ваше имя:</p>
               <input type="text" name="user" placeholder="Представьтесь, пожалуйста" required>
@@ -235,8 +235,9 @@
             </label>
             <button class="btn" type="submit" form="write-us">Отправить</button>
           </form>
-          <a href="#"> <span class="close"></span>
-          </a>
+          <button type="button">
+            <span></span>
+          </button>
         </div>
 
         <!-- Модальное окно конец -->
