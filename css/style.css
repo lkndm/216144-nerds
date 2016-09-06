@@ -737,11 +737,16 @@ img {
   color: #000000;
   text-transform: uppercase;
   margin-top: 10px;
-  ::-webkit-input-placeholder {color:#000000; opacity:1;}
-  ::-moz-placeholder          {color:#000000; opacity:1;}
-  :-moz-placeholder           {color:#000000; opacity:1;}
-  :-ms-input-placeholder      {color:#000000; opacity:1;}
 }
+
+.modal input::-webkit-input-placeholder {color:#000000; opacity:1;}
+.modal input::-moz-placeholder          {color:#000000; opacity:1;}
+.modal input:-moz-placeholder           {color:#000000; opacity:1;}
+.modal input:-ms-input-placeholder      {color:#000000; opacity:1;}
+.modal textarea::-webkit-input-placeholder {color:#000000; opacity:1;}
+.modal textarea::-moz-placeholder          {color:#000000; opacity:1;}
+.modal textarea:-moz-placeholder           {color:#000000; opacity:1;}
+.modal textarea:-ms-input-placeholder      {color:#000000; opacity:1;}
 
 .modal input {
   vertical-align: top;
@@ -1371,5 +1376,6 @@ img {
   position: relative;
   width: 100%;
   height: 416px;
+  background: url("../img/map.jpg") 50% 50% no-repeat;
   z-index: 10;
 }
