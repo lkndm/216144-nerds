@@ -7,7 +7,7 @@ body {
 
 h1 {
   font-size: 40px;
-  line-height: auto;
+  line-height: normal;
   color: #000000;
 }
 
@@ -45,12 +45,6 @@ h2 {
   display: table;
   clear: both;
 }
-
-/*remove after work with slider and modal window*/
-.display-none {
-  display: none;
-}
-/*****************************/
 
 .container {
   width: 880px;
@@ -640,7 +634,7 @@ h2 {
 
 .contacts {
   position: absolute;
-  top: 90px;
+  top: 85px;
   left: 160px;
   box-sizing: border-box;
   width: 250px;
@@ -650,6 +644,7 @@ h2 {
   padding-left: 21px;
   padding-right: 21px;
   padding-bottom: 25px;
+  z-index: 20;
 }
 
 .subtitle {
@@ -717,15 +712,16 @@ h2 {
   left: 50%;
   margin-left: -25%;
   right: 50%;
-  padding-top: 35px;
+  padding-top: 56px;
   padding-left: 80px;
   padding-right: 90px;
-  padding-bottom: 50px;
+  padding-bottom: 48px;
   width: 630px;
   height: 420px;
   background-color: #ffffff;
   box-sizing: border-box;
   box-shadow: 0 20px 40px 0 rgba(0, 1, 1, 0.75);
+  z-index: 30;
 }
 
 .modal-show {
@@ -743,6 +739,7 @@ h2 {
   line-height: 18px;
   color: #000000;
   text-transform: uppercase;
+  margin-top: 10px;
 }
 
 .modal input {
@@ -750,6 +747,7 @@ h2 {
   width: 221px;
   height: 40px;
   padding: 10px 16px;
+  margin-bottom: 20px;
   box-sizing: border-box;
 }
 
@@ -757,14 +755,8 @@ h2 {
   width: 460px;
   height: 114px;
   padding: 10px 16px;
-  margin-bottom: 42px;
+  margin-bottom: 38px;
   box-sizing: border-box;
-}
-
-.modal p {
-  font-size: 16px;
-  line-height: 18px;
-  color: #000000;
 }
 
 .modal .btn {
@@ -788,6 +780,9 @@ h2 {
 
 .modal label {
   display: inline-block;
+  font-size: 16px;
+  line-height: 18px;
+  color: #000000;
   margin-right: 18px;
 }
 
@@ -1342,4 +1337,9 @@ h2 {
   background-color: #f1f1f1;
 }
 
-
+#map {
+  position: relative;
+  width: 100%;
+  height: 416px;
+  z-index: 10;
+}

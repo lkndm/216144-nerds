@@ -138,8 +138,7 @@
       </div>
     </main>
     <footer class="main-footer" id="contacts">
-      <div class="map">
-        <img src="img/map.jpg" alt="Где мы находимся" width="1199" height="416">
+      <div id="map">
         <div class="contacts">
           <span class="subtitle">NЁRDS DESIGN STUDIO</span>
           <p>191186, Санкт-Петербург,
@@ -164,15 +163,15 @@
       <div class="modal clearfix">
         <form action="#" id="modal-content">
           <label>
-            <p>Ваше имя:</p>
+            Ваше имя<br>
             <input type="text" name="user" placeholder="Представьтесь, пожалуйста" required>
           </label>
           <label>
-            <p>Ваш e–mail:</p>
+            Ваш e–mail<br>
             <input type="email" name="e-mail" placeholder="Для отправки ответа" required>
           </label>
           <label>
-            <p>Текст письма:</p>
+            Текст письма:<br>
             <textarea placeholder="В свободной форме"></textarea>
           </label>
           <button class="btn" type="submit" form="modal-content">Отправить</button>
@@ -181,6 +180,8 @@
       </div>
     </footer>
     <script src="js/script.js"></script>
+    <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <script src="js/yandex-map.js"></script>
   </body>
 </html>
 
