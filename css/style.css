@@ -57,13 +57,13 @@ h2 {
   width: 139px;
   height: 56px;
   margin-top: 27px;
-  margin-bottom: 53px;
+  margin-bottom: 52px;
 }
 
 .main-navigation {
   float: left;
   margin-left: 180px;
-  min-width: 400px;
+  max-width: 460px;
   min-height: 30px;
   margin-top: 50px;
   margin-bottom: 52px;
@@ -84,14 +84,6 @@ h2 {
   margin-right: 20px;
 }
 
-/* attention — sizes .radio-btns */
-.radio-btns {
-  float: left;
-  min-width: 60px;
-  min-height: 12px;
-  margin-top: 200px;
-}
-
 .inner {
   float: right;
   width: 338px;
@@ -99,23 +91,18 @@ h2 {
 }
 
 .services-item {
-  display: inline-block;
+  float: left;
   vertical-align: top;
   width: 240px;
   min-height: 300px;
-  margin-right: 80px;
   margin-bottom: 80px;
   font-size: 15px;
   line-height: 22px;
 }
 
-.services-item:last-child {
-  margin-right: 0px;
-}
-
-.services {
-  font-size: 0px;
-  margin-bottom: 153px;
+.services-item:nth-child(3n+2) {
+  margin-left: 80px;
+  margin-right: 80px;
 }
 
 .about-us-left {
@@ -190,13 +177,6 @@ h2 {
   opacity: 1;
 }
 
-.map {
-  position: relative;
-  width: 1199px;
-  height: 416px;
-  margin: 0 auto;
-}
-
 .under-map {
   box-sizing: border-box;
   min-height: 216px;
@@ -216,7 +196,12 @@ h2 {
   float: left;
   width: 550px;
   min-height: 60px;
-  margin-top: 47px;
+  margin-top: 77px;
+}
+
+.footer-promo .big-title {
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .main-header h1 {
@@ -246,23 +231,23 @@ h2 {
 
 .sorting {
   float: right;
+  position: relative;
   width: 560px;
   min-height: 12px;
   margin-bottom: 50px;
   font-size: 12px;
   line-height: 18px;
   text-transform: uppercase;
-  position: relative;
 }
 
 .catalog-item {
   display: inline-block;
+  position: relative;
   vertical-align: top;
   margin-right: 80px;
   margin-bottom: 80px;
   width: 240px;
   height: 270px;
-  position: relative;
 }
 
 .catalog-item:nth-child(even) {
@@ -275,10 +260,6 @@ h2 {
 
 .catalog-item:hover .circle {
   background-color: #797979;
-}
-
-.content h2 {
-  text-transform: uppercase;
 }
 
 .switch-pages {
@@ -310,7 +291,7 @@ h2 {
 
 .switch-pages a:active {
   background-color: #d5d5d5;
-  box-shadow: 0 3px 0 0 #b5b5b5 inset;
+  box-shadow: 0 2px 0 0 #b5b5b5 inset;
 }
 
 .switch-pages .active, .switch-pages .active:hover, .switch-pages .active:active {
@@ -356,9 +337,9 @@ h2 {
   content: "";
   position: absolute;
   right: 20px;
-  top: 1px;
-  border: 10px solid transparent;
-  border-top: 15px solid #c1c1c1;
+  top: 4px;
+  border: 9px solid transparent;
+  border-top: 11px solid #c1c1c1;
   cursor: pointer;
 }
 
@@ -371,26 +352,26 @@ h2 {
   vertical-align: top;
   position: absolute;
   right: 0px;
-  top: -9px;
-  border: 10px solid transparent;
-  border-bottom: 15px solid #c1c1c1;
+  top: -5px;
+  border: 9px solid transparent;
+  border-bottom: 11px solid #c1c1c1;
   cursor: pointer;
 }
 
 .course-down:hover {
-  border-bottom: 15px solid #b5b5b5;
+  border-bottom: 11px solid #b5b5b5;
 }
 
 .course-up:hover {
-  border-top: 15px solid #b5b5b5;
+  border-top: 11px solid #b5b5b5;
 }
 
 .course-up:active {
-  border-top: 15px solid #000000;
+  border-top: 11px solid #000000;
 }
 
 .course-down:active {
-  border-bottom: 15px solid #000000;
+  border-bottom: 11px solid #000000;
 }
 
 .main-footer {
@@ -401,22 +382,17 @@ h2 {
 .main-header {
   width: auto;
   background-color: #eeeeee;
-  margin-bottom: 74px;
-}
-
-.content {
-  position: relative;
-  width: auto;
+  margin-bottom: 80px;
 }
 
 .cart {
-  display: inline-block;
+  float: right;
+  position: relative;
   min-height: 30px;
   max-width: 100px;
   margin-top: 50px;
   margin-bottom: 52px;
   padding-left: 26px;
-  position: relative;
 }
 
 .cart a{
@@ -460,6 +436,10 @@ h2 {
   font-size: 14px;
   line-height: 30px;
   text-transform: uppercase;
+}
+
+.main-navigation li:nth-child(4n+4) {
+  margin-right: 0;
 }
 
 .main-header .active {
@@ -607,7 +587,7 @@ h2 {
 
 .social-btn:active {
   background-color: #d6494d;
-  box-shadow: 0 3px 0 0 #b63e42 inset;
+  box-shadow: 0 2px 0 0 #b63e42 inset;
 }
 
 .footer-promo p {
@@ -708,8 +688,8 @@ h2 {
 .modal {
   display: none;
   position: absolute;
-  top: 239%;
-  left: 50%;
+  top: -120px;
+  left: 190px;
   margin-left: -25%;
   right: 50%;
   padding-top: 56px;
@@ -1123,7 +1103,7 @@ h2 {
 
 .grid-and-features .btn:active {
   background-color: #d5d5d5;
-  box-shadow: 0 3px 0 0 #b5b5b5 inset;
+  box-shadow: 0 2px 0 0 #b5b5b5 inset;
 }
 
 .ovetline {
