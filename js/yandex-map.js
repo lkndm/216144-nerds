@@ -14,11 +14,11 @@ function init() {
     position: {top: 15, left: 15}
   });
 
-  var myPlacemark = new ymaps.Placemark(myMap.getCenter(), {},
+  var myPlacemark = new ymaps.Placemark([59.938632, 30.323076], {},
         { iconLayout: "default#image",
           iconImageHref: "../img/map-marker.png",
           iconImageSize: [231, 190],
-          iconImageOffset: [-2, -4]
+          iconImageOffset: [-50, -200]
         });
 
   myMap.geoObjects.add(myPlacemark);
