@@ -14,6 +14,7 @@ h1 {
 h2 {
   font-size: 18px;
   line-height: 30px;
+  text-transform: uppercase;
   color: #000000;
 }
 
@@ -213,6 +214,10 @@ img {
   padding-top: 0;
 }
 
+.footer-promo h2 {
+  text-transform: none;
+}
+
 .main-header h1 {
   width: 650px;
   margin: 0 auto;
@@ -320,26 +325,37 @@ img {
   border-bottom: 2px dotted #00ca74;
 }
 
+.sorting span {
+  font-size: 12px;
+  line-height: 18px;
+  color: #000000;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 40px;
+}
+
 .sorting a:last-child {
   margin-right: 0;
 }
 
-.sorting a:first-child {
-  border: none;
-  color: #000000;
-  cursor: default;
-}
-
-.sorting a:hover:first-child {
-  border: none;
-}
-
 .sorting a:hover {
+  color: #000000;
   border-bottom: 2px solid #00ca74;
 }
 
 .sorting a:active {
+  color: #000000;
   border-bottom: none;
+}
+
+.sorting .active {
+  color: #000000;
+  border-bottom: none;
+  cursor: text;
+}
+
+.sorting .active:hover {
+  border: none;
 }
 
 .course-up {
@@ -352,8 +368,13 @@ img {
   cursor: pointer;
 }
 
-.sorting .active {
+.sorting .course-active {
   border-top-color: #00ca74;
+}
+
+.sorting .course-active:hover, .sorting .course-active:active {
+  border-top-color: #00ca74;
+  cursor: default;
 }
 
 .course-down {
@@ -466,6 +487,10 @@ img {
   left: 5px;
   right: 5px;
   background-color: #fb565a;
+}
+
+.main-header .active:hover::after {
+  display: none;
 }
 
 .btn {
@@ -776,6 +801,15 @@ img {
   outline: none;
 }
 
+.modal .btn:hover {
+  background-color: #d6494d;
+}
+
+.modal .btn:active {
+  background-color: #b63538;
+  box-shadow: 0 2px 0 0 #9b2d30 inset;
+}
+
 .modal input:hover, .modal textarea:hover {
   border-color: #a2a9ac;
 }
@@ -967,8 +1001,13 @@ img {
 
 .hover-card .btn {
   position: absolute;
+  font-size: 18px;
+  line-height: normal;
+  text-align: center;
   top: 70%;
-  left: 20%;
+  left: 15%;
+  right: 15%;
+  padding: 10px 25px;
   box-sizing: border-box;
 }
 
@@ -1007,10 +1046,6 @@ img {
   color: #000000;
 }
 
-.grid-and-features input[type="radio"] + label:active {
-  color: #bdbfc0;
-}
-
 .grid-and-features input[type="radio"] + label:before {
   content: "";
   width: 22px;
@@ -1040,14 +1075,6 @@ img {
 
 .grid-and-features input[type="radio"]:checked + label:hover:after {
   background-color: #b5b5b5;
-}
-
-.grid-and-features input[type="radio"] + label:active:before {
-  border-color: #e9e9e9;
-}
-
-.grid-and-features input[type="radio"]:checked + label:active:after {
-  background-color: #e9e9e9;
 }
 
 .grid-and-features input[type="radio"]:disabled + label {
@@ -1119,24 +1146,12 @@ img {
   color: #000000;
 }
 
-.grid-and-features input[type="checkbox"] + label:active {
-  color: #bdbfc0;
-}
-
 .grid-and-features input[type="checkbox"] + label:hover:before {
   border-color: #b5b5b5;
 }
 
-.grid-and-features input[type="checkbox"] + label:active:before {
-  border-color: #e9e9e9;
-}
-
 .grid-and-features input[type="checkbox"]:checked + label:hover span:before, .grid-and-features input[type="checkbox"]:checked + label:hover span:after {
   background-color: #b5b5b5;
-}
-
-.grid-and-features input[type="checkbox"]:checked + label:active span:before, .grid-and-features input[type="checkbox"]:checked + label:active span:after {
-  background-color: #e9e9e9;
 }
 
 .grid-and-features input[type="checkbox"]:disabled + label {
@@ -1178,6 +1193,10 @@ img {
   min-height: 310px;
   margin: 0 auto;
   overflow: hidden;
+}
+
+.slider h2 {
+  text-transform: none;
 }
 
 .slider input[type="radio"] {
@@ -1380,6 +1399,3 @@ img {
   background: url("../img/map.jpg") 50% 50% no-repeat;
   z-index: 10;
 }
-
-/*Test/
-/*Test/
