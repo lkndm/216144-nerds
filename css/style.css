@@ -39,7 +39,7 @@ img {
   font-size: 16px;
   line-height: 22px;
   width: 100%;
-  margin-bottom: 66px;
+  margin-bottom: 71px;
 }
 
 .lists-title {
@@ -63,16 +63,16 @@ img {
   width: 139px;
   height: 56px;
   margin-top: 27px;
-  margin-bottom: 52px;
+  margin-bottom: 42px;
 }
 
 .main-navigation {
   float: left;
-  margin-left: 180px;
+  margin-left: 179px;
   max-width: 440px;
   min-height: 30px;
-  margin-top: 50px;
-  margin-bottom: 52px;
+  margin-top: 54px;
+  margin-bottom: 40px;
 }
 
 
@@ -101,7 +101,7 @@ img {
   vertical-align: top;
   width: 240px;
   min-height: 300px;
-  margin-bottom: 80px;
+  margin-bottom: 70px;
   font-size: 15px;
   line-height: 22px;
 }
@@ -125,6 +125,7 @@ img {
   float: right;
   width: 212px;
   min-height: 75px;
+  margin-top: -10px;
 }
 
 .about-us-right span {
@@ -132,8 +133,8 @@ img {
   display: inline-block;
   width: 90px;
   vertical-align: middle;
-  margin-left: 39px;
-  margin-top: 30px;
+  margin-left: 41px;
+  margin-top: 20px;
   background: #ffffff;
   z-index: 2;
 }
@@ -145,7 +146,7 @@ img {
 
 .about-us {
   width: 100%;
-  margin-bottom: 47px;
+  margin-bottom: 15px;
 }
 
 .list-left {
@@ -156,11 +157,12 @@ img {
 .list-right {
   float: right;
   width: 232px;
+  padding-right: 10px;
 }
 
 .clients {
  padding-top: 46px;
- padding-bottom: 30px;
+ padding-bottom: 25px;
  border-top: 2px solid #eeeeee;
  border-bottom: 2px solid #eeeeee;
 }
@@ -190,7 +192,6 @@ img {
 .under-map {
   box-sizing: border-box;
   min-height: 216px;
-
 }
 
 .footer-social {
@@ -198,7 +199,6 @@ img {
   font-size: 0;
   max-width: 240px;
   height: 60px;
-  margin-right: 80px;
   padding-top: 77px;
 }
 
@@ -206,7 +206,8 @@ img {
   float: right;
   max-width: 550px;
   min-height: 60px;
-  padding-top: 77px;
+  padding-top: 75px;
+  padding-right: 18px;
 }
 
 .footer-promo .big-title {
@@ -420,9 +421,9 @@ img {
   position: relative;
   min-height: 30px;
   max-width: 100px;
-  margin-top: 50px;
-  margin-bottom: 52px;
-  padding-left: 26px;
+  margin-top: 54px;
+  margin-bottom: 40px;
+  padding-left: 25px;
 }
 
 .cart a{
@@ -461,7 +462,7 @@ img {
 
 .main-navigation li {
   display: inline-block;
-  margin-right: 40px;
+  margin-right: 35px;
   vertical-align: top;
   font-size: 14px;
   line-height: 30px;
@@ -496,7 +497,7 @@ img {
 .btn {
   display: inline-block;
   vertical-align: bottom;
-  padding: 11px 40px;
+  padding: 10px 40px;
   background-color: #fb565a;
   color: #ffffff;
   cursor: pointer;
@@ -514,10 +515,19 @@ img {
   margin-bottom: 17px;
 }
 
+.services-item h2 {
+  margin-top: 18px;
+}
+
+.services-item .btn {
+  margin-top: 10px;
+}
+
 .btn-slider {
-  box-sizing: border-box;
   width: 240px;
   text-align: center;
+  margin-top: 12px;
+  box-sizing: border-box;
 }
 
 .btn-red:hover {
@@ -565,7 +575,7 @@ img {
 
 .about-us-right::after {
   position: relative;
-  top: -5px;
+  top: -8px;
   right: 30px;
   display: block;
   content: "";
@@ -599,6 +609,10 @@ img {
   background-color: #fb565a;
 }
 
+.lists .list-item {
+  margin-top: 21px;
+}
+
 .social-btn {
   display: inline-block;
   vertical-align: top;
@@ -627,13 +641,13 @@ img {
 
 .footer-promo p {
   margin-bottom: 0;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 .overline {
   position: relative;
   width: 100%;
-  margin-bottom: 60px;
+  margin-bottom: 70px;
   outline: none;
   border: none;
   border-bottom: 2px solid #eeeeee;
@@ -675,7 +689,7 @@ img {
   font-size: 16px;
   line-height: 20px;
   color: #666666;
-  margin-bottom: 32px;
+  margin-bottom: 25px;
 }
 
 .contacts .btn {
@@ -697,7 +711,7 @@ img {
   display: none;
   position: fixed;
   top: 50%;
-  left: 50%;
+  left: 49%;
   transform: translate(-50%, -50%);
   padding-top: 56px;
   padding-left: 80px;
@@ -1206,7 +1220,8 @@ img {
 .slider-controls label {
   display: inline-block;
   vertical-align: top;
-  margin: 0 3px;
+  margin: 0px 3px;
+  margin-top: 15px;
   width: 4px;
   height: 4px;
   border: 3px solid #ffffff;
@@ -1256,7 +1271,7 @@ img {
   bottom: 95px;
   left: 50%;
   width: 200px;
-  margin-left: -100px;
+  margin-left: -110px;
   text-align: center;
   z-index: 10;
 }
