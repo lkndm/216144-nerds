@@ -224,9 +224,9 @@ img {
   margin: 0 auto;
   text-align: center;
   text-transform: uppercase;
-  line-height: 1.5;
-  padding-top: 11px;
-  padding-bottom: 82px;
+  line-height: normal;
+  padding-top: 22px;
+  padding-bottom: 84px;
   font-weight: normal;
 }
 
@@ -269,6 +269,10 @@ img {
   margin-right: 0px;
 }
 
+.catalog-item:nth-last-child(2), .catalog-item:last-child {
+  margin-bottom: 47px;;
+}
+
 .catalog-item:hover .hover-card {
   display: block;
 }
@@ -278,9 +282,10 @@ img {
 }
 
 .switch-pages {
-  margin-left: 330px;
+  margin-left: 320px;
   font-size: 0px;
   min-width: 284px;
+  margin-bottom: -5px;
 }
 
 .switch-pages a {
@@ -295,7 +300,7 @@ img {
   min-width: 38px;
   height: 38px;
   text-align: center;
-  padding: 11px 16px;
+  padding: 10px;
   box-sizing: border-box;
   border-radius: 2px;
 }
@@ -315,6 +320,11 @@ img {
   background-color: #ffffff;
   border: 2px solid #f1f1f1;
   box-shadow: none;
+}
+
+.switch-pages .next {
+  text-transform: uppercase;
+  padding: 10px 30px;
 }
 
 .sorting a {
@@ -362,10 +372,10 @@ img {
 .course-up {
   content: "";
   position: absolute;
-  right: 20px;
+  right: -22px;
   top: 4px;
-  border: 9px solid transparent;
-  border-top: 11px solid #c1c1c1;
+  border: 5px solid transparent;
+  border-top: 10px solid #c1c1c1;
   cursor: pointer;
 }
 
@@ -380,12 +390,11 @@ img {
 
 .course-down {
   content: "";
-  vertical-align: top;
   position: absolute;
-  right: 0px;
-  top: -5px;
-  border: 9px solid transparent;
-  border-bottom: 11px solid #c1c1c1;
+  right: -40px;
+  top: -1px;
+  border: 5px solid transparent;
+  border-bottom: 10px solid #c1c1c1;
   cursor: pointer;
 }
 
@@ -682,20 +691,20 @@ img {
   line-height: 30px;
   text-transform: uppercase;
   color: #000000;
-  margin-bottom: 18px;
 }
 
 .contacts p {
   font-size: 16px;
   line-height: 20px;
   color: #666666;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 .contacts .btn {
   width: 100%;
   box-sizing: border-box;
   text-align: center;
+  margin-top: 15px;
 }
 
 .contacts .btn:hover {
@@ -993,7 +1002,7 @@ img {
   color: #000000;
   text-transform: uppercase;
   text-align: center;
-  margin-top: 33px;
+  margin-top: 30px;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -1018,7 +1027,7 @@ img {
   font-size: 18px;
   line-height: normal;
   text-align: center;
-  top: 70%;
+  top: 64%;
   left: 15%;
   right: 15%;
   padding: 10px 25px;
@@ -1039,12 +1048,14 @@ img {
 }
 
 .grid-and-features h2 {
-  margin-top: 44px;
+  margin-top: 45px;
   max-width: 240px;
+  margin-bottom: -5px;
 }
 
 .grid-and-features h2:first-child {
   margin-top: 0;
+  margin-bottom: 15px;
 }
 
 .grid-and-features input[type="radio"] + label {
@@ -1053,7 +1064,7 @@ img {
   line-height: 20px;
   cursor: pointer;
   margin: 20px 0;
-  padding-left: 30px;
+  padding-left: 34px;
 }
 
 .grid-and-features input[type="radio"] + label:hover {
@@ -1109,7 +1120,7 @@ img {
   line-height: 20px;
   cursor: pointer;
   margin: 20px 0;
-  padding-left: 30px;
+  padding-left: 34px;
   position: relative;
 }
 
@@ -1133,12 +1144,13 @@ img {
 .grid-and-features input[type="checkbox"]:checked + label span:before {
   content: "";
   position: absolute;
-  top: -18px;
-  left: -15px;
+  top: -19px;
+  left: -18px;
   width: 4px;
-  height: 16px;
+  height: 20px;
   background-color: #c1c1c1;
   border: 2px solid #ffffff;
+  border-radius: 4px;
   border-bottom: none;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
@@ -1147,10 +1159,11 @@ img {
 .grid-and-features input[type="checkbox"]:checked + label span:after {
   content: "";
   position: absolute;
-  top: -9px;
-  left: -21px;
+  top: -8px;
+  left: -25px;
   width: 4px;
-  height: 9px;
+  height: 10px;
+  border-radius: 2px;
   background-color: #c1c1c1;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
@@ -1178,7 +1191,8 @@ img {
 }
 
 .grid-and-features .btn {
-  margin-top: 56px;
+  margin-top: 40px;
+  padding: 10px 45px;
   background-color: #f1f1f1;
   color: #000000;
 }
@@ -1386,6 +1400,8 @@ img {
 .price-controls label {
   font-size: 16px;
   display: inline-block;
+  vertical-align: top;
+  text-transform: uppercase;
   width: 50%;
 }
 
