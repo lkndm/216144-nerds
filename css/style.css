@@ -437,6 +437,8 @@ img {
 
 .cart a{
   padding: 5px 5px;
+  padding-right: 0px;
+  padding-left: 10px;
   text-decoration: none;
   color: #000000;
   font-size: 14px;
@@ -721,7 +723,8 @@ img {
   position: fixed;
   top: 50%;
   left: 49%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   padding-top: 56px;
   padding-left: 80px;
   padding-right: 90px;
