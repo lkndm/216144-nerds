@@ -484,13 +484,14 @@ img {
   margin-right: 0;
 }
 
-.main-header .active {
+.main-navigation .main-nav-active {
   position: relative;
   background-color: none;
-  cursor: pointer;
+  cursor: default;
+  color: #000000;
 }
 
-.main-header .active::after {
+.main-navigation .main-nav-active::after {
   position: absolute;
   content: "";
   width: auto;
@@ -499,10 +500,12 @@ img {
   left: 5px;
   right: 5px;
   background-color: #fb565a;
+  cursor: default;
 }
 
-.main-header .active:hover::after {
-  display: none;
+.main-navigation .main-nav-active:active, .main-navigation .main-nav-active:hover {
+  color: #000000;
+  cursor: default;
 }
 
 .btn {
