@@ -1,18 +1,21 @@
 body {
-	font-family: "Roboto", "Arial", sans-serif;
-	font-size: 16px;
-	line-height: 22px;
-	color: #283136;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #283136;
 }
 
 h1 {
   font-size: 40px;
+  font-weight: 500;
   line-height: normal;
   color: #000000;
 }
 
 h2 {
   font-size: 18px;
+  font-weight: 500;
   line-height: 30px;
   text-transform: uppercase;
   color: #000000;
@@ -37,6 +40,7 @@ img {
 
 .lists {
   font-size: 16px;
+  font-weight: 500;
   line-height: 22px;
   width: 100%;
   margin-bottom: 71px;
@@ -103,6 +107,7 @@ img {
   min-height: 300px;
   margin-bottom: 70px;
   font-size: 15px;
+  font-weight: 500;
   line-height: 22px;
 }
 
@@ -251,6 +256,7 @@ img {
   min-height: 12px;
   margin-bottom: 50px;
   font-size: 12px;
+  font-weight: 500;
   line-height: 18px;
   text-transform: uppercase;
 }
@@ -295,6 +301,7 @@ img {
   text-decoration: none;
   color: #000000;
   font-size: 12px;
+  font-weight: 500;
   line-height: 18px;
   margin-right: 10px;
   min-width: 38px;
@@ -338,6 +345,7 @@ img {
 
 .sorting span {
   font-size: 12px;
+  font-weight: 500;
   line-height: 18px;
   color: #000000;
   display: inline-block;
@@ -419,6 +427,10 @@ img {
   margin-top: 85px;
 }
 
+.main-footer .catalog-page {
+  font-weight: 700;
+}
+
 .main-header {
   width: auto;
   background-color: #eeeeee;
@@ -442,6 +454,7 @@ img {
   text-decoration: none;
   color: #000000;
   font-size: 14px;
+  font-weight: 500;
   line-height: 30px;
   text-transform: uppercase;
 }
@@ -476,6 +489,7 @@ img {
   margin-right: 35px;
   vertical-align: top;
   font-size: 14px;
+  font-weight: 500;
   line-height: 30px;
   text-transform: uppercase;
 }
@@ -518,6 +532,7 @@ img {
   text-decoration: none;
   font-family: inherit;
   font-size: 12px;
+  font-weight: 500;
   line-height: 18px;
   text-transform: uppercase;
   border-radius: 2px;
@@ -581,6 +596,7 @@ img {
 
 .foundation {
   font-size: 16px;
+  font-weight: 500;
   line-height: normal;
   text-transform: uppercase;
   padding-left: 10px;
@@ -693,6 +709,7 @@ img {
 .subtitle {
   font-family: inherit;
   font-size: 16px;
+  font-weight: 500;
   line-height: 30px;
   text-transform: uppercase;
   color: #000000;
@@ -700,12 +717,14 @@ img {
 
 .contacts p {
   font-size: 16px;
+  font-weight: 500;
   line-height: 20px;
   color: #666666;
   margin-bottom: 15px;
 }
 
 .contacts .btn {
+  font-weight: 700;
   width: 100%;
   box-sizing: border-box;
   text-align: center;
@@ -788,6 +807,7 @@ img {
 .modal input, .modal textarea {
   font-family: inherit;
   font-size: 12px;
+  font-weight: 500;
   line-height: 18px;
   color: #000000;
   text-transform: uppercase;
@@ -855,6 +875,7 @@ img {
 .modal label {
   display: inline-block;
   font-size: 16px;
+  font-weight: 500;
   line-height: 18px;
   color: #000000;
   margin-right: 18px;
@@ -1004,6 +1025,7 @@ img {
 
 .hover-card h2 {
   font-size: 18px;
+  font-weight: 500;
   line-height: 24px;
   color: #000000;
   text-transform: uppercase;
@@ -1021,6 +1043,7 @@ img {
 .hover-card p {
   text-align: center;
   font-size: 14px;
+  font-weight: 500;
   line-height: 18px;
   color: #283136;
   margin-top: 10px;
@@ -1031,6 +1054,7 @@ img {
 .hover-card .btn {
   position: absolute;
   font-size: 18px;
+  font-weight: 500;
   line-height: normal;
   text-align: center;
   top: 64%;
@@ -1197,6 +1221,7 @@ img {
 }
 
 .grid-and-features .btn {
+  font-weight: 700;
   margin-top: 40px;
   padding: 10px 45px;
   background-color: #f1f1f1;
@@ -1405,6 +1430,7 @@ img {
 
 .price-controls label {
   font-size: 16px;
+  font-weight: 500;
   display: inline-block;
   vertical-align: top;
   text-transform: uppercase;
@@ -1418,6 +1444,7 @@ img {
 .price-controls input {
   font-family: "Roboto", "Arial", sans-serif;
   font-size: 16px;
+  font-weight: 500;
   text-align: center;
   color: #283136;
   width: 60px;
