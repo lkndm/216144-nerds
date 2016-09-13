@@ -43,7 +43,7 @@ img {
   font-weight: 500;
   line-height: 22px;
   width: 100%;
-  margin-bottom: 71px;
+  margin-bottom: 69px;
 }
 
 .lists-title {
@@ -105,7 +105,7 @@ img {
   vertical-align: top;
   width: 240px;
   min-height: 300px;
-  margin-bottom: 70px;
+  margin-bottom: 72px;
   font-size: 15px;
   font-weight: 500;
   line-height: 22px;
@@ -118,19 +118,23 @@ img {
 
 .about-us-left {
   float: left;
-  width: 620px;
   min-height: 135px;
+  max-width: 571px;
 }
 
 .about-us-left .big-title {
   text-transform: none;
 }
 
+.about-us-left p {
+  padding-top: 2px;
+}
+
 .about-us-right {
   float: right;
   width: 212px;
   min-height: 75px;
-  margin-top: -10px;
+  margin-top: -11px;
 }
 
 .about-us-right span {
@@ -139,19 +143,19 @@ img {
   width: 90px;
   vertical-align: middle;
   margin-left: 41px;
-  margin-top: 20px;
+  margin-top: 22px;
   background: #ffffff;
   z-index: 2;
 }
 
 .about-us-right img {
-  margin-right: 22px;
+  margin-right: 20px;
   box-sizing: border-box;
 }
 
 .about-us {
   width: 100%;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
 }
 
 .list-left {
@@ -166,7 +170,7 @@ img {
 }
 
 .clients {
- padding-top: 46px;
+ padding-top: 45px;
  padding-bottom: 25px;
  border-top: 2px solid #eeeeee;
  border-bottom: 2px solid #eeeeee;
@@ -204,7 +208,7 @@ img {
   font-size: 0;
   max-width: 240px;
   height: 60px;
-  padding-top: 77px;
+  padding-top: 78px;
 }
 
 .footer-promo {
@@ -225,21 +229,21 @@ img {
 }
 
 .main-header h1 {
-  width: 650px;
+  max-width: 651px;
+  min-height: 78px;
   margin: 0 auto;
   text-align: center;
   text-transform: uppercase;
   line-height: normal;
   padding-top: 22px;
   padding-bottom: 84px;
-  font-weight: normal;
+  font-weight: 500;
 }
 
 .grid-and-features {
   float: left;
   width: 240px;
   min-height: 730px;
-  margin-top: -7px;
 }
 
 .catalog {
@@ -254,7 +258,8 @@ img {
   position: relative;
   width: 560px;
   min-height: 12px;
-  margin-bottom: 50px;
+  margin-top: -1px;
+  margin-bottom: 48px;
   font-size: 12px;
   font-weight: 500;
   line-height: 18px;
@@ -276,7 +281,7 @@ img {
 }
 
 .catalog-item:nth-last-child(2), .catalog-item:last-child {
-  margin-bottom: 47px;;
+  margin-bottom: 49px;;
 }
 
 .catalog-item:hover .hover-card {
@@ -291,7 +296,7 @@ img {
   margin-left: 320px;
   font-size: 0px;
   min-width: 284px;
-  margin-bottom: -5px;
+  margin-bottom: -8px;
 }
 
 .switch-pages a {
@@ -350,7 +355,7 @@ img {
   color: #000000;
   display: inline-block;
   vertical-align: top;
-  margin-right: 40px;
+  margin-right: 41px;
 }
 
 .sorting a:last-child {
@@ -424,7 +429,7 @@ img {
 
 .main-footer {
   width: auto;
-  margin-top: 85px;
+  margin-top: 86px;
 }
 
 .main-footer .catalog-page {
@@ -433,6 +438,7 @@ img {
 
 .main-header {
   width: auto;
+  min-height: 328px;
   background-color: #eeeeee;
   margin-bottom: 80px;
 }
@@ -540,12 +546,14 @@ img {
   outline: none;
 }
 
-.services-item p {
-  margin-bottom: 17px;
-}
-
 .services-item h2 {
   margin-top: 18px;
+  margin-left: -2px;
+}
+
+.services-item p {
+  margin-bottom: 16px;
+  margin-top: -1px;
 }
 
 .services-item .btn {
@@ -555,7 +563,7 @@ img {
 .btn-slider {
   width: 240px;
   text-align: center;
-  margin-top: 12px;
+  margin-top: 11px;
   box-sizing: border-box;
 }
 
@@ -605,7 +613,7 @@ img {
 
 .about-us-right::after {
   position: relative;
-  top: -8px;
+  top: -10px;
   right: 30px;
   display: block;
   content: "";
@@ -626,13 +634,13 @@ img {
 
 .lists li {
   position: relative;
-  margin-left: 37px;
+  margin-left: 35px;
 }
 
 .lists li::before {
   position: absolute;
   top: 50%;
-  left: -37px;
+  left: -35px;
   content: "";
   width: 25px;
   height: 2px;
@@ -640,7 +648,7 @@ img {
 }
 
 .lists .list-item {
-  margin-top: 21px;
+  margin-top: 22px;
 }
 
 .social-btn {
@@ -720,7 +728,8 @@ img {
   font-weight: 500;
   line-height: 20px;
   color: #666666;
-  margin-bottom: 15px;
+  margin-bottom: 19px;
+  margin-top: 12px;
 }
 
 .contacts .btn {
@@ -728,7 +737,7 @@ img {
   width: 100%;
   box-sizing: border-box;
   text-align: center;
-  margin-top: 15px;
+  margin-top: 12px;
 }
 
 .contacts .btn:hover {
@@ -1084,7 +1093,8 @@ img {
 }
 
 .grid-and-features h2:first-child {
-  margin-top: 0;
+  margin-top: -7px;
+  padding-top: 0;
   margin-bottom: 15px;
 }
 
@@ -1290,11 +1300,16 @@ img {
 
 .slide-text {
   width: 500px;
-  padding: 30px 0;
+  padding-top: 32px;
+  padding-right: 0;
+  padding-bottom: 28px;
+  padding-left: 0;
+  margin-left: -1px;
 }
 
 .slide p {
   font-weight: 500;
+  padding-top: 2px;
   line-height: 22px;
   color: #283136;
 }
@@ -1463,5 +1478,3 @@ img {
   background: url("../img/map.jpg") 50% 50% no-repeat;
   z-index: 10;
 }
-
-/*TEST*/
