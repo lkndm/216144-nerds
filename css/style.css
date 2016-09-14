@@ -229,7 +229,7 @@ img {
 }
 
 .main-header h1 {
-  max-width: 651px;
+  max-width: 655px;
   min-height: 78px;
   margin: 0 auto;
   text-align: center;
@@ -547,12 +547,13 @@ img {
 }
 
 .services-item h2 {
-  margin-top: 18px;
+  margin-top: 23px;
   margin-left: -2px;
+  margin-bottom: 19px;
 }
 
 .services-item p {
-  margin-bottom: 16px;
+  margin-bottom: 17px;
   margin-top: -1px;
 }
 
@@ -1397,7 +1398,7 @@ img {
 .range-controls {
   position: relative;
   height: 41px;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
   padding-top: 39px;
   padding-right: 20px;
   padding-left: 20px;
@@ -1462,7 +1463,7 @@ img {
   color: #283136;
   width: 60px;
   padding: 8px 10px;
-  margin-left: 10px;
+  margin-left: 7px;
   border: none;
   outline: none;
   border-radius: 5px;
