@@ -16,7 +16,7 @@ h1 {
 h2 {
   font-size: 18px;
   font-weight: 500;
-  line-height: 30px;
+  line-height: 20px;
   text-transform: uppercase;
   color: #000000;
 }
@@ -34,7 +34,7 @@ img {
   padding: 0;
 }
 
-.small-title {
+.small-title, h2 {
 	text-transform: uppercase;
 }
 
@@ -215,8 +215,8 @@ img {
   float: right;
   max-width: 550px;
   min-height: 60px;
-  padding-top: 75px;
-  padding-right: 18px;
+  padding-top: 78px;
+  padding-right: 20px;
 }
 
 .footer-promo .big-title {
@@ -235,7 +235,7 @@ img {
   text-align: center;
   text-transform: uppercase;
   line-height: normal;
-  padding-top: 22px;
+  padding-top: 25px;
   padding-bottom: 84px;
   font-weight: 500;
 }
@@ -355,7 +355,7 @@ img {
   color: #000000;
   display: inline-block;
   vertical-align: top;
-  margin-right: 41px;
+  margin-right: 35px;
 }
 
 .sorting a:last-child {
@@ -385,8 +385,8 @@ img {
 .course-up {
   content: "";
   position: absolute;
-  right: -22px;
-  top: 4px;
+  right: 18px;
+  top: 5px;
   border: 5px solid transparent;
   border-top: 10px solid #c1c1c1;
   cursor: pointer;
@@ -404,7 +404,7 @@ img {
 .course-down {
   content: "";
   position: absolute;
-  right: -40px;
+  right: 0;
   top: -1px;
   border: 5px solid transparent;
   border-bottom: 10px solid #c1c1c1;
@@ -492,7 +492,7 @@ img {
 
 .main-navigation li {
   display: inline-block;
-  margin-right: 35px;
+  margin-right: 33px;
   vertical-align: top;
   font-size: 14px;
   font-weight: 500;
@@ -679,7 +679,7 @@ img {
 
 .footer-promo p {
   margin-bottom: 0;
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
 .overline {
@@ -717,8 +717,7 @@ img {
 .subtitle {
   font-family: inherit;
   font-size: 16px;
-  font-weight: 500;
-  line-height: 30px;
+  line-height: 32px;
   text-transform: uppercase;
   color: #000000;
 }
@@ -816,7 +815,6 @@ img {
 .modal input, .modal textarea {
   font-family: inherit;
   font-size: 12px;
-  font-weight: 500;
   line-height: 18px;
   color: #000000;
   text-transform: uppercase;
@@ -1087,15 +1085,15 @@ img {
 }
 
 .grid-and-features h2 {
-  margin-top: 45px;
+  margin-top: 50px;
   max-width: 240px;
-  margin-bottom: -5px;
+  margin-bottom: 0;
 }
 
 .grid-and-features h2:first-child {
-  margin-top: -7px;
+  margin-top: 0;
   padding-top: 0;
-  margin-bottom: 15px;
+  margin-bottom: 19px;
 }
 
 .grid-and-features input[type="radio"] + label {
