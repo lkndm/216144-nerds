@@ -1,19 +1,22 @@
 body {
-	font-family: "Roboto", "Arial", sans-serif;
-	font-size: 16px;
-	line-height: 22px;
-	color: #283136;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #283136;
 }
 
 h1 {
   font-size: 40px;
+  font-weight: 500;
   line-height: normal;
   color: #000000;
 }
 
 h2 {
   font-size: 18px;
-  line-height: 30px;
+  font-weight: 500;
+  line-height: 20px;
   text-transform: uppercase;
   color: #000000;
 }
@@ -31,15 +34,16 @@ img {
   padding: 0;
 }
 
-.small-title {
+.small-title, h2 {
 	text-transform: uppercase;
 }
 
 .lists {
   font-size: 16px;
+  font-weight: 500;
   line-height: 22px;
   width: 100%;
-  margin-bottom: 71px;
+  margin-bottom: 69px;
 }
 
 .lists-title {
@@ -101,8 +105,9 @@ img {
   vertical-align: top;
   width: 240px;
   min-height: 300px;
-  margin-bottom: 70px;
+  margin-bottom: 72px;
   font-size: 15px;
+  font-weight: 500;
   line-height: 22px;
 }
 
@@ -113,19 +118,23 @@ img {
 
 .about-us-left {
   float: left;
-  width: 620px;
   min-height: 135px;
+  max-width: 571px;
 }
 
 .about-us-left .big-title {
   text-transform: none;
 }
 
+.about-us-left p {
+  padding-top: 2px;
+}
+
 .about-us-right {
   float: right;
   width: 212px;
   min-height: 75px;
-  margin-top: -10px;
+  margin-top: -11px;
 }
 
 .about-us-right span {
@@ -134,19 +143,19 @@ img {
   width: 90px;
   vertical-align: middle;
   margin-left: 41px;
-  margin-top: 20px;
+  margin-top: 22px;
   background: #ffffff;
   z-index: 2;
 }
 
 .about-us-right img {
-  margin-right: 22px;
+  margin-right: 20px;
   box-sizing: border-box;
 }
 
 .about-us {
   width: 100%;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
 }
 
 .list-left {
@@ -161,7 +170,7 @@ img {
 }
 
 .clients {
- padding-top: 46px;
+ padding-top: 45px;
  padding-bottom: 25px;
  border-top: 2px solid #eeeeee;
  border-bottom: 2px solid #eeeeee;
@@ -199,15 +208,15 @@ img {
   font-size: 0;
   max-width: 240px;
   height: 60px;
-  padding-top: 77px;
+  padding-top: 78px;
 }
 
 .footer-promo {
   float: right;
   max-width: 550px;
   min-height: 60px;
-  padding-top: 75px;
-  padding-right: 18px;
+  padding-top: 78px;
+  padding-right: 20px;
 }
 
 .footer-promo .big-title {
@@ -220,21 +229,21 @@ img {
 }
 
 .main-header h1 {
-  width: 650px;
+  max-width: 655px;
+  min-height: 78px;
   margin: 0 auto;
   text-align: center;
   text-transform: uppercase;
   line-height: normal;
-  padding-top: 22px;
+  padding-top: 25px;
   padding-bottom: 84px;
-  font-weight: normal;
+  font-weight: 500;
 }
 
 .grid-and-features {
   float: left;
   width: 240px;
   min-height: 730px;
-  margin-top: -7px;
 }
 
 .catalog {
@@ -249,8 +258,10 @@ img {
   position: relative;
   width: 560px;
   min-height: 12px;
-  margin-bottom: 50px;
+  margin-top: -1px;
+  margin-bottom: 48px;
   font-size: 12px;
+  font-weight: 500;
   line-height: 18px;
   text-transform: uppercase;
 }
@@ -270,7 +281,7 @@ img {
 }
 
 .catalog-item:nth-last-child(2), .catalog-item:last-child {
-  margin-bottom: 47px;;
+  margin-bottom: 49px;;
 }
 
 .catalog-item:hover .hover-card {
@@ -285,7 +296,7 @@ img {
   margin-left: 320px;
   font-size: 0px;
   min-width: 284px;
-  margin-bottom: -5px;
+  margin-bottom: -8px;
 }
 
 .switch-pages a {
@@ -295,6 +306,7 @@ img {
   text-decoration: none;
   color: #000000;
   font-size: 12px;
+  font-weight: 500;
   line-height: 18px;
   margin-right: 10px;
   min-width: 38px;
@@ -338,11 +350,12 @@ img {
 
 .sorting span {
   font-size: 12px;
+  font-weight: 500;
   line-height: 18px;
   color: #000000;
   display: inline-block;
   vertical-align: top;
-  margin-right: 40px;
+  margin-right: 35px;
 }
 
 .sorting a:last-child {
@@ -372,8 +385,8 @@ img {
 .course-up {
   content: "";
   position: absolute;
-  right: -22px;
-  top: 4px;
+  right: 18px;
+  top: 5px;
   border: 5px solid transparent;
   border-top: 10px solid #c1c1c1;
   cursor: pointer;
@@ -391,7 +404,7 @@ img {
 .course-down {
   content: "";
   position: absolute;
-  right: -40px;
+  right: 0;
   top: -1px;
   border: 5px solid transparent;
   border-bottom: 10px solid #c1c1c1;
@@ -416,11 +429,16 @@ img {
 
 .main-footer {
   width: auto;
-  margin-top: 85px;
+  margin-top: 86px;
+}
+
+.main-footer .catalog-page {
+  font-weight: 700;
 }
 
 .main-header {
   width: auto;
+  min-height: 328px;
   background-color: #eeeeee;
   margin-bottom: 80px;
 }
@@ -442,6 +460,7 @@ img {
   text-decoration: none;
   color: #000000;
   font-size: 14px;
+  font-weight: 500;
   line-height: 30px;
   text-transform: uppercase;
 }
@@ -473,9 +492,10 @@ img {
 
 .main-navigation li {
   display: inline-block;
-  margin-right: 35px;
+  margin-right: 33px;
   vertical-align: top;
   font-size: 14px;
+  font-weight: 500;
   line-height: 30px;
   text-transform: uppercase;
 }
@@ -484,13 +504,14 @@ img {
   margin-right: 0;
 }
 
-.main-header .active {
+.main-navigation .main-nav-active {
   position: relative;
   background-color: none;
-  cursor: pointer;
+  cursor: default;
+  color: #000000;
 }
 
-.main-header .active::after {
+.main-navigation .main-nav-active::after {
   position: absolute;
   content: "";
   width: auto;
@@ -499,10 +520,12 @@ img {
   left: 5px;
   right: 5px;
   background-color: #fb565a;
+  cursor: default;
 }
 
-.main-header .active:hover::after {
-  display: none;
+.main-navigation .main-nav-active:active, .main-navigation .main-nav-active:hover {
+  color: #000000;
+  cursor: default;
 }
 
 .btn {
@@ -515,6 +538,7 @@ img {
   text-decoration: none;
   font-family: inherit;
   font-size: 12px;
+  font-weight: 500;
   line-height: 18px;
   text-transform: uppercase;
   border-radius: 2px;
@@ -522,12 +546,15 @@ img {
   outline: none;
 }
 
-.services-item p {
-  margin-bottom: 17px;
+.services-item h2 {
+  margin-top: 23px;
+  margin-left: -2px;
+  margin-bottom: 19px;
 }
 
-.services-item h2 {
-  margin-top: 18px;
+.services-item p {
+  margin-bottom: 17px;
+  margin-top: -1px;
 }
 
 .services-item .btn {
@@ -537,7 +564,7 @@ img {
 .btn-slider {
   width: 240px;
   text-align: center;
-  margin-top: 12px;
+  margin-top: 11px;
   box-sizing: border-box;
 }
 
@@ -578,6 +605,7 @@ img {
 
 .foundation {
   font-size: 16px;
+  font-weight: 500;
   line-height: normal;
   text-transform: uppercase;
   padding-left: 10px;
@@ -586,7 +614,7 @@ img {
 
 .about-us-right::after {
   position: relative;
-  top: -8px;
+  top: -10px;
   right: 30px;
   display: block;
   content: "";
@@ -607,13 +635,13 @@ img {
 
 .lists li {
   position: relative;
-  margin-left: 37px;
+  margin-left: 35px;
 }
 
 .lists li::before {
   position: absolute;
   top: 50%;
-  left: -37px;
+  left: -35px;
   content: "";
   width: 25px;
   height: 2px;
@@ -621,7 +649,7 @@ img {
 }
 
 .lists .list-item {
-  margin-top: 21px;
+  margin-top: 22px;
 }
 
 .social-btn {
@@ -652,7 +680,7 @@ img {
 
 .footer-promo p {
   margin-bottom: 0;
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
 .overline {
@@ -690,23 +718,26 @@ img {
 .subtitle {
   font-family: inherit;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 32px;
   text-transform: uppercase;
   color: #000000;
 }
 
 .contacts p {
   font-size: 16px;
+  font-weight: 500;
   line-height: 20px;
   color: #666666;
-  margin-bottom: 15px;
+  margin-bottom: 19px;
+  margin-top: 12px;
 }
 
 .contacts .btn {
+  font-weight: 700;
   width: 100%;
   box-sizing: border-box;
   text-align: center;
-  margin-top: 15px;
+  margin-top: 12px;
 }
 
 .contacts .btn:hover {
@@ -852,6 +883,7 @@ img {
 .modal label {
   display: inline-block;
   font-size: 16px;
+  font-weight: 500;
   line-height: 18px;
   color: #000000;
   margin-right: 18px;
@@ -1001,6 +1033,7 @@ img {
 
 .hover-card h2 {
   font-size: 18px;
+  font-weight: 500;
   line-height: 24px;
   color: #000000;
   text-transform: uppercase;
@@ -1018,6 +1051,7 @@ img {
 .hover-card p {
   text-align: center;
   font-size: 14px;
+  font-weight: 500;
   line-height: 18px;
   color: #283136;
   margin-top: 10px;
@@ -1028,6 +1062,7 @@ img {
 .hover-card .btn {
   position: absolute;
   font-size: 18px;
+  font-weight: 500;
   line-height: normal;
   text-align: center;
   top: 64%;
@@ -1051,14 +1086,15 @@ img {
 }
 
 .grid-and-features h2 {
-  margin-top: 45px;
+  margin-top: 52px;
   max-width: 240px;
-  margin-bottom: -5px;
+  margin-bottom: 0;
 }
 
 .grid-and-features h2:first-child {
   margin-top: 0;
-  margin-bottom: 15px;
+  padding-top: 0;
+  margin-bottom: 19px;
 }
 
 .grid-and-features input[type="radio"] + label {
@@ -1194,6 +1230,7 @@ img {
 }
 
 .grid-and-features .btn {
+  font-weight: 700;
   margin-top: 40px;
   padding: 10px 45px;
   background-color: #f1f1f1;
@@ -1262,11 +1299,16 @@ img {
 
 .slide-text {
   width: 500px;
-  padding: 30px 0;
+  padding-top: 32px;
+  padding-right: 0;
+  padding-bottom: 28px;
+  padding-left: 0;
+  margin-left: -1px;
 }
 
 .slide p {
   font-weight: 500;
+  padding-top: 2px;
   line-height: 22px;
   color: #283136;
 }
@@ -1356,7 +1398,7 @@ img {
 .range-controls {
   position: relative;
   height: 41px;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
   padding-top: 39px;
   padding-right: 20px;
   padding-left: 20px;
@@ -1402,6 +1444,7 @@ img {
 
 .price-controls label {
   font-size: 16px;
+  font-weight: 500;
   display: inline-block;
   vertical-align: top;
   text-transform: uppercase;
@@ -1415,11 +1458,12 @@ img {
 .price-controls input {
   font-family: "Roboto", "Arial", sans-serif;
   font-size: 16px;
+  font-weight: 500;
   text-align: center;
   color: #283136;
   width: 60px;
   padding: 8px 10px;
-  margin-left: 10px;
+  margin-left: 7px;
   border: none;
   outline: none;
   border-radius: 5px;
@@ -1433,5 +1477,3 @@ img {
   background: url("../img/map.jpg") 50% 50% no-repeat;
   z-index: 10;
 }
-
-/*TEST*/
